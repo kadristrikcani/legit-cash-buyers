@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  all: unset;
+  padding-left: 10px;
+}
+
+li::before {
+  content: '•';
+  padding-right: 5px;
+  color: black;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  button[data-tf-popup='ah3V2AgX'] {
+    padding: 0rem 1rem !important;
+    font-size: 14px !important;
+  }
+}
