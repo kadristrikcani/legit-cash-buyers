@@ -1,8 +1,8 @@
 import AppLogo from './app-logo'
-import Chip from './chip'
+import FAQAccordion from './faq-accordion'
 import Footer from './footer'
-import Form from './form'
 import Header from './header'
 import LinkButton from './link-button'
+import Modal from './modal'
 
-export { AppLogo, LinkButton, Header, Chip, Footer, Form }
+export { AppLogo, LinkButton, Header, Footer, Modal, FAQAccordion }

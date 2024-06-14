@@ -6,17 +6,20 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
+  darkMode: 'class',
   theme: {
     colors: {
       primary: '#F07659',
       secondary: '#032C3F',
+      background: '#f9f1ea',
       white: '#fff',
       black: '#000',
       neutral100: '#101010',
       neutral80: '#33353E',
       neutral60: '#757B8A',
       goldenrod: '#F37455',
-      burntSienna: '#F37455'
+      burntSienna: '#F37455',
+      yellow: '#F8D16E'
     },
     screens: {
       sm: { min: '0px', max: '576px' },
@@ -35,6 +38,6 @@ const config: Config = {
       }
     }
   },
-  plugins: []
+  plugins: [require('@headlessui/tailwindcss')]
 }
 export default config

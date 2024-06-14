@@ -1,17 +1,17 @@
 import React from 'react'
 
-import Goals from './goals'
+import FAQ from './faq'
+import Features from './features'
 import Hero from './hero'
-import LocalData from './local-data'
-import SmartData from './smart-data'
+import Testimonials from './testimonials'
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex min-h-screen flex-col overflow-hidden">
       <Hero />
-      <LocalData />
-      <SmartData />
-      <Goals />
+      <Features />
+      <Testimonials />
+      <FAQ />
     </div>
   )
 }

@@ -14,8 +14,8 @@ const Header: React.FC = () => {
   const isMobile: boolean = useMobile()
 
   return (
-    <header className="py-6 sm:py-4 ">
-      <div className="container mx-auto px-4 sm:px-2 max-w-[1920px]">
+    <header className="px-4 py-6 sm:px-2 sm:py-4">
+      <div className="container mx-auto max-w-[1920px] px-4 sm:px-0">
         <div className="flex items-center justify-between">
           <AppLogo size={isMobile ? 120 : 180} />
           <div className="flex gap-4 sm:gap-3">
@@ -26,8 +26,10 @@ const Header: React.FC = () => {
               color="secondary"
               className="sm:px-5 sm:py-3 sm:text-[14px]"
             >
+              {`📞 `}
               {headerString.buttonLinkText}
             </LinkButton>
+
             <div>
               <div data-tf-live="01J040DS9Z2FPQP91XDXC1WS2E"></div>
               <Script src="//embed.typeform.com/next/embed.js"></Script>

@@ -2,17 +2,14 @@
   "$schema": "https://json.schemastore.org/prettierrc",
   "arrowParens": "always",
   "bracketSpacing": true,
-  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
   "importOrder": [
     "react",
     "next/*",
     "/public/*",
-    "@/actions/*",
     "styled-components",
     "@src/app/*",
-    "@src/context/*",
     "@src/hooks/*",
-    "@src/email/*",
     "@src/lib/*",
     "@src/components",
     "^./(.*)$"

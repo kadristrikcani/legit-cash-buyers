@@ -7,8 +7,5 @@ export const footerString = {
   power of data-driven decision-making.`,
   copyright: `© 2024 Legit Cash Buyers from Niche Solutions`,
   termsConditions: `Terms & Conditions`,
-  privacyPolicy: `Privacy Policy`,
-  instagram: `https://www.instagram.com/nichedata/`,
-  facebook: `https://www.facebook.com/profile.php?id=61558831096464`,
-  twitter: `https://twitter.com/nichedataai`
+  privacyPolicy: `Privacy Policy`
 }
