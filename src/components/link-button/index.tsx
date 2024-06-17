@@ -23,7 +23,7 @@ const LinkButton: React.FC<IButtonProps> = ({
   onClick,
   className
 }) => {
-  const linkStyles = `all:unset px-8 py-2 rounded-3xl text-[18px] font-semibold ${
+  const linkStyles = `all:unset flex items-center gap-2 px-8 py-2 rounded-3xl text-[18px] font-semibold ${
     color === 'primary'
       ? 'bg-primary text-white'
       : color === 'secondary'

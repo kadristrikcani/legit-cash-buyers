@@ -11,14 +11,20 @@ const Hero: React.FC = () => {
     <section id="hero" className="relative flex-1">
       <div className="mx-auto flex flex-col items-center justify-center">
         <div className="mb-[120px] mt-16 flex gap-32 sm:mb-[50px] sm:flex-col-reverse sm:gap-24 md:gap-12 md:px-4">
-          <div className="bg-transparent relative h-[500px] w-[500px] rounded-full border-[4px] border-primary p-[7px] sm:mx-auto sm:h-[300px] sm:w-[100%]  sm:rounded-b-[50%] sm:border-b-0 md:h-[350px] md:w-[350px] ">
+          <div className="bg-transparent relative h-[500px] w-[500px] rounded-full border-[4px] border-primary p-[7px] sm:mx-auto sm:h-[300px] sm:w-[100%] sm:rounded-b-[50%] sm:border-b-0 md:h-[350px] md:w-[350px]">
             <div className="mx-auto h-[100%] rounded-full bg-primary sm:rounded-b-lg">
               <Image
                 fill
                 className="rounded-full p-[7px] pl-[25px] sm:rounded-none"
-                src="/michael-bust.png"
+                // src="/hero-1.png"
+                // src="/hero-2.png"
+                // src="/hero-3.jpeg"
+                // src="/hero-4.png"
+                src="/hero-4-.png"
+                // src="/hero-5.png"
+                // src="/hero-6.png"
                 alt="Hero Image"
-                objectFit="cover"
+                objectFit="contain"
               />
             </div>
           </div>
@@ -36,6 +42,7 @@ const Hero: React.FC = () => {
 
             <h1 className="text-break whitespace-pre-line text-center text-[40px] font-bold leading-[115%] text-secondary sm:text-[24px] md:text-[30px]">
               {heroString.title}
+              <br />
               <span className="stroke-current relative mx-1 ml-2 inline-block">
                 {heroString.highlightedText}
                 <svg

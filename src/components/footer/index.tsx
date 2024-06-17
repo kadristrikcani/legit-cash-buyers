@@ -18,15 +18,15 @@ const Footer: React.FC = () => {
   return (
     <footer
       id="footer"
-      className="relative max-h-[440px] min-h-[440px] overflow-hidden px-4 py-6 sm:max-h-[735px] sm:min-h-[735px] sm:px-[10px] md:max-h-[600px] md:min-h-[600px] md:px-[10px]"
+      className="relative max-h-[390px] min-h-[390px] overflow-hidden px-4 py-6 sm:max-h-[735px] sm:min-h-[735px] sm:px-[10px] md:max-h-[600px] md:min-h-[600px] md:px-[10px]"
     >
-      <div className="bg-[goldenrod]/40 absolute top-[5rem] -z-10 h-[300px] left-[-10rem] w-[35rem] rounded-full blur-[8rem]" />
-      <div className="bg-burntSienna/40 absolute top-[10rem] -z-10 right-[-5rem] h-[300px] w-[30rem] rounded-full blur-[10rem]" />
+      <div className="absolute left-[-10rem] top-[5rem] -z-10 h-[300px] w-[35rem] rounded-full bg-[goldenrod]/40 blur-[8rem]" />
+      <div className="absolute right-[-5rem] top-[10rem] -z-10 h-[300px] w-[30rem] rounded-full bg-burntSienna/40 blur-[10rem]" />
 
-      <div className="container mx-auto px-4 max-w-[1920px]">
-        <div className="flex items-center justify-between gap-12 py-6 sm:flex-col sm:items-start sm:gap-8 sm:py-0 || md:flex-col md:items-start md:gap-8 md:py-0">
+      <div className="container mx-auto max-w-[1920px] px-4">
+        <div className="flex items-center justify-between gap-12 py-6 sm:flex-col sm:items-start sm:gap-8 sm:py-0 md:flex-col md:items-start md:gap-8 md:py-0">
           <AppLogo size={isMobile ? 120 : 180} />
-          <p className="text-[16px] text-neutral60 font-medium whitespace-pre-line leading-[160%] sm:text-[14px]">
+          <p className="whitespace-pre-line text-[16px] font-medium leading-[160%] text-neutral60 sm:text-[14px]">
             {footerString.description}
           </p>
           <div className="pb-4">
@@ -35,10 +35,10 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex-shrink-0 h-px bg-[#E9ECEF] my-[40px] sm:hidden md:hidden" />
+        <div className="my-[40px] h-px flex-shrink-0 bg-[#E9ECEF] sm:hidden md:hidden" />
 
         <div className="flex items-center justify-between gap-12 sm:flex-col sm:gap-8 md:mt-[30px]">
-          <div className="flex gap-10 text-neutral80 font-medium sm:text-[14px]">
+          <div className="flex gap-10 font-medium text-neutral80 sm:text-[14px]">
             <Link href="/terms-conditions">{footerString.termsConditions}</Link>
             <Link href="/privacy-policy">{footerString.privacyPolicy}</Link>
           </div>
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
           <div />
         </div>
 
-        <p className="text-[14px] sm:text-[12px] text-neutral60 font-medium text-center sm:mt-2 md:my-3">
+        <p className="text-center text-[14px] font-medium text-neutral60 sm:mt-2 sm:text-[12px] md:my-3">
           {footerString.copyright}
         </p>
       </div>

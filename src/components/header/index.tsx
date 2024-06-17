@@ -2,6 +2,7 @@
 
 import React from 'react'
 
+import Image from 'next/image'
 import Script from 'next/script'
 
 import useMobile from '@src/hooks/useMobile'
@@ -26,7 +27,7 @@ const Header: React.FC = () => {
               color="secondary"
               className="sm:px-5 sm:py-3 sm:text-[14px]"
             >
-              {`📞 `}
+              <Image src="/phone.svg" alt="phone" width={21} height={21} />
               {headerString.buttonLinkText}
             </LinkButton>
 
