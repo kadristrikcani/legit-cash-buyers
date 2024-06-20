@@ -16,13 +16,7 @@ const Hero: React.FC = () => {
               <Image
                 fill
                 className="rounded-full p-[7px] pl-[25px] sm:rounded-none"
-                // src="/hero-1.png"
-                // src="/hero-2.png"
-                // src="/hero-3.jpeg"
-                // src="/hero-4.png"
-                src="/hero-4-.png"
-                // src="/hero-5.png"
-                // src="/hero-6.png"
+                src="/hero-1.png"
                 alt="Hero Image"
                 objectFit="contain"
               />

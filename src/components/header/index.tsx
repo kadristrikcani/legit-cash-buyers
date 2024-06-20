@@ -18,7 +18,7 @@ const Header: React.FC = () => {
     <header className="px-4 py-6 sm:px-2 sm:py-4">
       <div className="container mx-auto max-w-[1920px] px-4 sm:px-0">
         <div className="flex items-center justify-between">
-          <AppLogo size={isMobile ? 120 : 180} />
+          <AppLogo size={isMobile ? 80 : 120} />
           <div className="flex gap-4 sm:gap-3">
             <LinkButton
               href={headerString.buttonLink}

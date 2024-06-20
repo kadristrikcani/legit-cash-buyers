@@ -1,52 +1,66 @@
 export const termsAndConditionsString = {
-  title: `Terms and Conditions for NicheData.ai`,
+  title: `Terms and Conditions for Legit Cash Buyers`,
   description: `
-        <b>1. Introduction</b> 
-        Welcome to NicheData.ai. These Terms and Conditions govern your use of 
-        our website and services, including any data, software, and tools provided by
-        us. By accessing or using our services, you agree to be bound by these 
-        terms. If you do not agree to these terms, please do not use our services. \n
+        <b>Welcome to Legit Cash Buyers.</b> By accessing and using our website, 
+        you agree to comply with and be bound by the following terms and conditions.
+         Please read them carefully. \n
+        <b>1. Acceptance of Terms</b> 
+        By using our website, you acknowledge that you have read, understood, and
+        agree to be bound by these terms and conditions, as well as our Privacy Policy.
+        If you do not agree with any part of these terms, you should not use our website. \n
         <b>2. Services Provided</b>
-        NicheData.ai provides skip traced, property lookup, email validated, and 
-        Zillow estimated pre-foreclosure data, alongside a marketing engine 
-        designed to facilitate high-leverage marketing activities. We utilize advanced
-        artificial intelligence technologies to enhance the accuracy and utility of the 
-        data provided.  \n
-        <b>3. Data Use and Responsibilities</b>
-        While we sell high-quality data, the usage of this data is solely at the 
-        discretion and responsibility of the purchaser. NicheData.ai is not responsible
-        for any unlawful or inappropriate use of the data. Customers are expected to 
-        comply with all applicable laws and regulations regarding data use, including 
-        data protection and privacy laws. \n
-        <b>4. Marketing Engine</b>
-        Our unique marketing engine is provided to assist in automating marketing 
-        activities. Users of our marketing engine must ensure that all activities 
-        conducted through it are in compliance with all applicable laws and 
-        regulations. NicheData.ai disclaims any liability for misuse of the marketing 
-        engine.  \n
-        <b>5. Intellectual Property</b>
-        All content, trademarks, services marks, trade names, logos, and icons are 
-        proprietary to NicheData.ai. Users are granted no right or license with 
-        respect to any of the aforesaid marks or any use of such marks.  \n
-        <b>6. Limitation of Liability</b>
-        NicheData.ai shall not be liable for any damages, liability or losses arising out
-        of your use of our service, data, or marketing engine. Our liability to you in 
-        connection with any services provided through this website is strictly limited 
-        to the amount you paid for the service.  \n
-        <b>7. Indemnification</b>
-        You agree to indemnify and hold NicheData.ai harmless from any claim or 
-        demand, including reasonable attorneys' fees, made by any third party due 
-        to or arising out of your breach of these Terms and Conditions, or your 
-        violation of any law or the rights of a third party.  \n
-        <b>8. Amendments</b>
+        Legit Cash Buyers offers a service to purchase homes for cash quickly and with
+        minimal hassle. The specifics of our service, including the process and criteria
+        for cash offers, are detailed on our website. We reserve the right to modify or
+        discontinue our services at any time without prior notice.\n
+        <b>3. Eligibility</b>
+        You must be at least 18 years old to use our services. By using our website, you
+        represent and warrant that you meet this age requirement and that all information
+        you provide is accurate and complete. \n
+        <b>4. Privacy</b>
+        Your use of our website is also governed by our Privacy Policy, which can be found
+        here. We are committed to protecting your privacy and ensuring the security of your
+        personal information.  \n
+        <b>5. Cash Offers</b>
+        All cash offers made by Legit Cash Buyers are subject to our evaluation process,
+        which considers the condition of the property and the urgency of the sale.
+        Offers are provided at our discretion and are not guaranteed. \n
+        <b>6. No Real Estate Agent Representation</b>
+        Legit Cash Buyers does not act as a real estate agent or broker. We do not charge
+        commissions or fees for our services, and our transactions do not involve real
+        estate agent representation.  \n
+        <b>7. Use of Website</b>
+        You agree to use our website only for lawful purposes. You must not use our website
+        in any way that may harm, disrupt, or interfere with the functioning of the website
+        or the services provided. \n
+        <b>8. Intellectual Property </b>
         We may update or amend these Terms and Conditions from time to time to 
-        comply with law or to meet our changing business requirements. We will post
-        the revised Terms and Conditions on our website and request your 
-        acceptance if we make substantial changes. Your continued use of our 
-        services after any such changes constitutes your acceptance of the new 
-        Terms and Conditions.  \n
-        <b>9. Governing Law and Jurisdiction</b>
-        These Terms and Conditions are governed by and construed in accordance 
-        with the laws of the United States. You agree that the courts of the United 
-        States will have exclusive jurisdiction over any disputes or claims.`
+        All content on our website, including text, graphics, logos, and images, is the
+        property of Legit Cash Buyers or its content suppliers and is protected by
+        applicable intellectual property laws. You may not use, reproduce, or distribute
+        any content from our website without our prior written permission.  \n
+        <b>9. Limitation of Liability</b>
+        Legit Cash Buyers shall not be liable for any direct, indirect, incidental, or
+        consequential damages arising out of or in connection with your use of our website
+        or services. This includes, but is not limited to, damages for loss of profits,
+        data, or other intangible losses. \n
+        <b>10. Indemnification</b>
+        You agree to indemnify and hold harmless Legit Cash Buyers, its affiliates, officers,
+        agents, and employees from any claims, liabilities, damages, and expenses, including
+        reasonable attorneys' fees, arising out of your use of our website or services, or
+        your violation of these terms and conditions.\n
+        <b>11. Changes to Terms</b>
+        We reserve the right to modify these terms and conditions at any time. Any changes
+        will be effective immediately upon posting on our website. Your continued use of our
+        website after such changes constitutes your acceptance of the new terms and conditions.\n
+        <b>12. Governing Law</b>
+        These terms and conditions shall be governed by and construed in accordance with the laws
+        of the State of Wyoming, without regard to its conflict of law principles.\n
+        <b>13. Contact Information</b>
+        If you have any questions or concerns about these terms and conditions, please contact us at:
+        <span style="font-weight: 500">Legit Cash Buyers, 1718 Capitol Ave., 
+        Cheyenne, Wy 82001 
+        (901) 910-0101
+        info@legitcashbuyers.com
+        </span>`
 }

@@ -30,8 +30,8 @@ const Features: React.FC = () => {
                 <div className="flex items-center justify-center">
                   <Image
                     src={feature.img}
-                    width={100}
-                    height={100}
+                    width={80}
+                    height={80}
                     alt={feature.img.replace('/', '').replace('.svg', '')}
                   />
                 </div>
@@ -55,8 +55,8 @@ const Features: React.FC = () => {
                   <div className="flex items-center justify-center">
                     <Image
                       src={feature.img}
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       alt={feature.img.replace('/', '').replace('.svg', '')}
                     />
                   </div>

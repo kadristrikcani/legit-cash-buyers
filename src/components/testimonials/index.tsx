@@ -5,16 +5,10 @@ import { useEffect, useRef, useState } from 'react'
 
 import Image from 'next/image'
 
-import { testimonialsString } from '@src/lib/data/testimonials'
-
-import TestimonialModal from './modal'
-
 export interface ITestimonial {
   img: string
   quote: string
-  popup: string
   name: string
-  video: string
 }
 
 export default function FancyITestimonialsSlider({
@@ -92,7 +86,7 @@ export default function FancyITestimonialsSlider({
               leaveTo="opacity-0 translate-x-4"
               beforeEnter={() => heightFix()}
             >
-              <div className="text-2xl font-bold text-secondary before:content-['\201C'] after:content-['\201D'] sm:text-[20px]">
+              <div className="text-2xl font-bold text-secondary sm:text-[20px]">
                 {testimonial.quote}
               </div>
             </Transition>
@@ -100,27 +94,12 @@ export default function FancyITestimonialsSlider({
         </div>
       </div>
 
-      {/* Read more */}
-      <>
-        <button
-          className="mb-5 rounded-md bg-secondary px-3 py-[4px] text-white"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {testimonialsString.button}
-        </button>
-        <TestimonialModal
-          testimonial={testimonials[active]}
-          isOpen={isOpen}
-          closeModal={() => setIsOpen(!isOpen)}
-        />
-      </>
-
       {/* Buttons */}
       <div className="-m-1.5 flex flex-wrap justify-center">
         {testimonials.map((testimonial, index) => (
           <button
             key={index}
-            className={`focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 m-1.5 inline-flex justify-center whitespace-nowrap rounded-full px-3 py-1.5 text-xs shadow-sm transition-colors duration-150 focus-visible:outline-none focus-visible:ring ${active === index ? 'bg-primary text-white shadow-lg' : 'bg-white text-secondary hover:bg-primary/10 '}`}
+            className={`focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 m-1.5 inline-flex justify-center whitespace-nowrap rounded-full px-3 py-1.5 text-xs shadow-sm transition-colors duration-150 focus-visible:outline-none focus-visible:ring ${active === index ? 'bg-primary text-white shadow-lg' : 'bg-white text-secondary hover:bg-primary/10'}`}
             onClick={() => {
               setActive(index)
               setAutorotate(false)

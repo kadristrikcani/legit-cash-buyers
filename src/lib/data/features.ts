@@ -2,44 +2,44 @@ export const featuresString = {
   title: `Niche Is More Than Education`,
   features: [
     {
-      title: `Real Mentorship`,
-      description: `You’ll have regular Zoom Calls directly with Michael Franke providing step-by-step guidance.`,
-      img: '/features/mentorship.svg'
+      title: `Facing Foreclosure`,
+      description: `Don't lose your home to foreclosure. We can provide a fast, fair cash offer to help you avoid financial distress.`,
+      img: '/features/law.svg'
     },
     {
-      title: `Community`,
-      description: `Community is a core value. You will gain access to a nationwide network of high achieving Niche investors.`,
-      img: '/features/investor-community.svg'
+      title: `Relocation`,
+      description: `Need to move fast? We offer quick cash deals to help you relocate without the stress of a prolonged home sale.`,
+      img: '/features/globe.svg'
     },
     {
-      title: `Online Training`,
-      description: `Get access to the Niche Online hub where training, events, communication and community are all in one place.`,
-      img: '/features/online.svg'
+      title: `Inherited Property`,
+      description: `Selling an inherited property has never been easier. Get quick cash without the hassle of managing or repairing the home.`,
+      img: '/features/document-edit.svg'
     },
     {
-      title: `Learn at every level`,
-      description: `Whether you're seeking your first deal or aiming to scale your team, Niche offers education for everyone.`,
-      img: '/features/graduation.svg'
+      title: `Downsizing`,
+      description: `Looking to downsize your living space? We offer cash for your current home, allowing you to move on with ease.`,
+      img: '/features/tag-sale.svg'
     },
     {
-      title: `Tailored Support`,
-      description: `Customized action plans, regular progress check ins, community support, thoughtfully crafted technology.`,
-      img: '/features/puzzle.svg'
+      title: `Divorce`,
+      description: `Simplify the process of dividing assets during a divorce. We buy homes quickly, providing fair and hassle-free transactions.`,
+      img: 'features/person-error.svg'
     },
     {
-      title: `Results Based`,
-      description: `Unlock new content and acquire new skills as you reach specific deal completion milestones.`,
-      img: 'features/trophy.svg'
+      title: `Nightmare Tenants`,
+      description: `Tired of dealing with bad tenants? Sell your rental property quickly and effortlessly, regardless of tenant issues.`,
+      img: '/features/house.svg'
     },
     {
-      title: `Exclusive Tools`,
-      description: `Access Niche Data updated daily from the county, Prebuilt marketing CRM’s and more.`,
-      img: 'features/toolbox.svg'
+      title: `Retirement`,
+      description: `Ready to downsize or move to a retirement community? Sell your home for cash and make your transition smoother.`,
+      img: 'features/contact-book.svg'
     },
     {
-      title: `Create Leverage`,
-      description: `Learn to build a powerful team that extends your reach and focuses on high-leverage tasks`,
-      img: 'features/rocket.svg'
+      title: `Expensive Repairs`,
+      description: `No need to invest in costly repairs. We buy homes in any condition, providing you with a fair cash offer.`,
+      img: '/features/wrench.svg'
     }
   ]
 }

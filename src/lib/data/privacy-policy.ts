@@ -1,50 +1,61 @@
 export const privacyPolicyString = {
-  title: `Privacy Policy for NicheData.ai`,
+  title: `Privacy Policy for Legit Cash Buyers`,
+  effectiveDate: `Effective Date: 06/06/2024`,
   description: `
-        <b>1. Introduction</b>
-        This Privacy Policy outlines how NicheData.ai collects, uses, and protects any
-        information that you give us when you use this website. By using our 
-        services, you consent to the data practices described in this policy. \n
-        <b>2. Information Collection</b>
-        We may collect the following types of information 
-        <li>Personal Information: Such as your name, email address, telephone 
-        number, and any other information that can be used to identify you.</li>
-        <li>Usage Data: Information on how you use our website and services, 
-        which may include IP addresses, browser type, browser version, and 
-        other diagnostic data.</li>  \n
-        <b>3. Use of Information</b>
-        The information we collect may be used in one of the following ways: 
-        <li>To provide and maintain our services </li> 
-        <li>To notify you about changes to our services</li> 
-        <li>To provide customer support</li> 
-        <li>To gather analysis or valuable information so that we can improve our 
-        services</li> 
-        <li>To monitor the usage of our services</li>  \n
-        <b>4. Data Protection</b>
-        We implement a variety of security measures to maintain the safety of your 
-        personal information when you enter, submit, or access your personal 
-        information. However, no method of transmission over the Internet or 
-        method of electronic storage is 100% secure. \n
-        <b>5. Data Sharing</b>
-        We do not sell, trade, or otherwise transfer to outside parties your personally
-        identifiable information. This does not include trusted third parties who assist
-        us in operating our website, conducting our business, or servicing you, so 
-        long as those parties agree to keep this information confidential. \n
-        <b>6. Third Party Links</b>
-        Occasionally, at our discretion, we may include or offer third party products 
-        or services on our website. These third party sites have separate and 
-        independent privacy policies. We therefore have no responsibility or liability 
-        for the content and activities of these linked sites. \n
-        <b>7. Compliance with Laws</b>
-        We will disclose your personal information where required to do so by law or 
-        subpoena or if we believe that such action is necessary to comply with the 
-        law and the reasonable requests of law enforcement or to protect the 
-        security or integrity of our Service. \n
+        <b>Legit Cash Buyers</b> ("we," "us," or "our") is committed to protecting your privacy.
+        This Privacy Policy outlines our practices regarding the collection, use, and
+        disclosure of information that you provide to us through our website. \n
+        <b>1. Information We Collect</b>
+        <li>Personal Information: When you fill out a form on our website, we may collect personal
+        information such as your name, email address, phone number, and property details.</li>
+        <li>Non-Personal Information: We may also collect non-personal information automatically
+        when you visit our website, such as your IP address, browser type, operating system,
+        and browsing behavior.</li> \n
+        <b>2. Use of Information</b>
+        <li>To Provide Services: We use the information you provide to respond to your inquiries,
+        evaluate your property, and make cash offers.</li>
+        <li>To Improve Our Website: We analyze non-personal information to improve the functionality
+        and user experience of our website.</li>
+        <li>To Communicate: We may use your contact information to send you updates, promotional
+        materials, or other information related to our services. You can opt-out of receiving these
+        communications at any time.</li>  \n
+        <b>3. Sharing of Information</b>
+        <li>With Service Providers: We may share your information with trusted third-party service
+        providers who assist us in operating our website and conducting our business. These service
+        providers are obligated to keep your information confidential and use it only for the
+        purposes we specify.</li> 
+        <li>Legal Requirements: We may disclose your information if required to do so by law or in
+        response to valid requests by public authorities (e.g., a court or government agency).</li>  \n
+        <b>4. Security</b>
+        We implement a variety of security measures to protect your personal information. 
+        However, no method of transmission over the Internet or electronic storage is 100% secure.
+        Therefore, while we strive to use commercially acceptable means to protect your information,
+        we cannot guarantee its absolute security. \n
+        <b>5. Cookies</b>
+        Our website uses cookies to enhance your browsing experience. Cookies are small files that
+        a site or its service provider transfers to your computer's hard drive through your
+        web browser (if you allow) that enable the site's or service provider's systems to recognize
+        your browser and capture and remember certain information. You can choose to disable cookies
+        through your browser settings. \n
+        <b>6. Third-Party Links</b>
+        Our website may contain links to third-party websites. We are not responsible for the privacy
+        practices or the content of these external sites. We encourage you to read the privacy policies
+        of any third-party websites you visit. \n
+        <b>7. Children's Privacy</b>
+        Our website is not intended for children under the age of 13. We do not knowingly collect personal
+        information from children under 13. If we become aware that we have inadvertently received personal
+        information from a child under 13, we will delete such information from our records. \n
         <b>8. Changes to this Privacy Policy</b>
-        We may update our Privacy Policy from time to time. We will notify you of 
-        any changes by posting the new Privacy Policy on this page. You are advised 
-        to review this Privacy Policy periodically for any changes. \n
-        <b>9. Contact Us</b>
-        If you have any questions about this Privacy Policy, please contact us 
-        through the information provided on our website.`
+        We may update this Privacy Policy from time to time. We will notify you of any changes by posting
+        the new Privacy Policy on our website. You are advised to review this Privacy Policy periodically
+        for any changes. \n
+        <b>9. Your Consent</b>
+        By using our website, you consent to the terms of this Privacy Policy. \n
+        <b>10. Contact Us</b>
+        If you have any questions or concerns about this Privacy Policy, please contact us at:
+        <span style="font-weight: 500">Legit Cash Buyers, 1718 Capitol Ave., 
+        Cheyenne, Wy 82001 
+        (901) 910-0101
+        info@legitcashbuyers.com
+        </span>`
 }

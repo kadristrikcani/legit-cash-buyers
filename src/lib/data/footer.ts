@@ -1,10 +1,8 @@
 export const footerString = {
-  description: `Connect With Us: Stay ahead in the fast-paced world of real estate with AI-
-  powered solutions. Join our community for updates as we expand to more 
-  states and enhance our services.\n
-  Why Choose Us? Leverage cutting-edge AI to transform your real estate 
-  endeavors. From detailed analytics to streamlined marketing, discover the 
-  power of data-driven decision-making.`,
+  description: `<b>Contact Us:</b> 
+<span style="font-weight: 600">Phone:</span> (901) 910-0101 
+<span style="font-weight: 600">Address:</span> 1718 Capitol Ave., Cheyenne, Wy 82001 
+<span style="font-weight: 600">Email:</span> info@legitcashbuyers.com`,
   copyright: `© 2024 Legit Cash Buyers from Niche Solutions`,
   termsConditions: `Terms & Conditions`,
   privacyPolicy: `Privacy Policy`

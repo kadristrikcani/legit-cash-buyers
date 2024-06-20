@@ -1,9 +1,11 @@
 export const heroString = {
   title: `LEGIT CASH BUYERS`,
-  highlightedText: `Real Estate Deals`,
-  description: `Niche is a nationwide community dedicated
-  to teaching investors of all levels how to leverage niche
-  lists to find highly motivated sellers, secure deep
-  discounts, and serve homeowners in need.
+  highlightedText: `Professional Service, Quick Cash.`,
+  description: `We understand that selling your home can
+  be a daunting process, especially when time is of the
+  essence or the property is in less than perfect condition.
+  That’s why Legit Cash Buyers is here to offer a fast, fair, and
+  hassle-free solution. We buy houses across the United States,
+  in any condition, and close as quickly as you need.
   `
 }
