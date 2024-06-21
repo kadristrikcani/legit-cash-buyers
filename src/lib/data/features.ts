@@ -1,5 +1,4 @@
 export const featuresString = {
-  title: `Niche Is More Than Education`,
   features: [
     {
       title: `Facing Foreclosure`,

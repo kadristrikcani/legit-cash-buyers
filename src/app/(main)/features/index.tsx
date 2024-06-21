@@ -14,12 +14,6 @@ const Features: React.FC = () => {
   return (
     <section id="features" className="relative flex-1">
       <div className="mx-auto flex flex-col items-center justify-center">
-        <div className="space-y-[16px] px-4 text-center">
-          <h1 className="text-break whitespace-pre-line text-[64px] font-bold leading-[115%] text-secondary sm:text-[24px] md:text-[34px]">
-            {featuresString.title}
-          </h1>
-        </div>
-
         {!isTablet ? (
           <div className="mx-[10%] grid grid-cols-4 gap-12 py-12 sm:mx-[20px] sm:grid-cols-2 sm:gap-4">
             {featuresString.features.map((feature, index) => (
