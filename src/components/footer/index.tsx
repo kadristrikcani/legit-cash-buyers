@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
   return (
     <footer
       id="footer"
-      className="relative max-h-[265px] min-h-[265px] overflow-hidden px-4 py-6 sm:max-h-[735px] sm:min-h-[735px] sm:px-[10px] md:max-h-[600px] md:min-h-[600px] md:px-[10px]"
+      className="relative max-h-[275px] min-h-[275px] overflow-hidden px-4 py-6 sm:max-h-[735px] sm:min-h-[735px] sm:px-[10px] md:max-h-[600px] md:min-h-[600px] md:px-[10px]"
     >
       <div className="absolute left-[-10rem] top-[5rem] -z-10 h-[300px] w-[35rem] rounded-full bg-[goldenrod]/40 blur-[8rem]" />
       <div className="absolute right-[-5rem] top-[10rem] -z-10 h-[300px] w-[30rem] rounded-full bg-burntSienna/40 blur-[10rem]" />
