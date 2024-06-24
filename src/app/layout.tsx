@@ -24,7 +24,7 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="en" className="h-full !scroll-smooth">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.ico" sizes="any" />
       </head>
 
       <body className={`flex h-full flex-col ${inter.className}`}>
