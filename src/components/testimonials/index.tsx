@@ -58,13 +58,15 @@ export default function FancyITestimonialsSlider({
                 leaveFrom="opacity-100 rotate-0"
                 leaveTo="opacity-0 rotate-[60deg]"
               >
-                <Image
-                  className="relative left-[49%] top-11 -translate-x-1/2 rounded-full"
-                  src={testimonial.img}
-                  width={56}
-                  height={56}
-                  alt={testimonial.name}
-                />
+                <div className="relative left-[49%] top-11 h-[56px] w-[56px] -translate-x-1/2 rounded-full border-[1.5px] border-primary p-[2px]">
+                  <Image
+                    className="rounded-full"
+                    src={testimonial.img}
+                    width={56}
+                    height={56}
+                    alt={testimonial.name}
+                  />
+                </div>
               </Transition>
             ))}
           </div>

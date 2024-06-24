@@ -1,4 +1,4 @@
 export const headerString = {
-  buttonLinkText: `(800) 123-4567`,
-  buttonLink: 'tel:+18001234567'
+  buttonLinkText: `(901) 910-0101`,
+  buttonLink: 'tel:9019100101'
 }
