@@ -24,34 +24,25 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center">
-            <div className="relative h-[150px] w-[300px] md:w-[220px]">
+            <div className="relative h-[50px] w-[600px]">
               <Image
                 fill={true}
                 className="h-full w-full object-cover"
-                src="/niche-text-logo.png"
+                src="/text-logo.svg"
                 alt="Hero Image"
                 objectFit="contain"
               />
             </div>
 
-            <h1 className="text-break whitespace-pre-line text-center text-[40px] font-bold leading-[115%] text-secondary sm:text-[24px] md:text-[30px]">
-              {heroString.title}
-              <br />
-              <span className="stroke-current relative mx-1 ml-2 inline-block">
-                {heroString.highlightedText}
-                <svg
-                  className="absolute -bottom-0 max-h-1.5 w-full"
-                  viewBox="0 0 55 5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="none"
-                >
-                  <path
-                    d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002"
-                    fill="#F07659"
-                  ></path>
-                </svg>
-              </span>
-            </h1>
+            <div className="relative h-[80px] w-[620px]">
+              <Image
+                fill={true}
+                className="h-full w-full object-cover"
+                src="/subtitle-logo.svg"
+                alt="Hero Image"
+                objectFit="contain"
+              />
+            </div>
           </div>
         </div>
 

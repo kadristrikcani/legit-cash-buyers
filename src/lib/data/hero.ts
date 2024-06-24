@@ -1,6 +1,4 @@
 export const heroString = {
-  title: `LEGIT CASH BUYERS`,
-  highlightedText: `Professional Service, Quick Cash.`,
   description: `We understand that selling your home can
   be a daunting process, especially when time is of the
   essence or the property is in less than perfect condition.
