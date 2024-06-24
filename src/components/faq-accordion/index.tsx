@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 import Image from 'next/image'
 
-import minusIcon from '/public//icon-minus.svg'
+import minusIcon from '/public/icon-minus.svg'
 import plusIcon from '/public/icon-plus.svg'
 
 interface IFAQAccordion {
@@ -19,6 +19,7 @@ const FAQAccordion: React.FC<IFAQAccordion> = ({ questions }) => {
   const [answerHeights, setAnswerHeights] = useState<number[]>(
     Array(questions.length).fill(0)
   )
+  const [showAll, setShowAll] = useState(false)
 
   const toggleQuestion = (idx: number) => {
     setActiveIndex(activeIndex === idx ? null : idx)
@@ -28,11 +29,13 @@ const FAQAccordion: React.FC<IFAQAccordion> = ({ questions }) => {
     setAnswerHeights(newAnswerHeights)
   }
 
+  const displayedQuestions = showAll ? questions : questions.slice(0, 5)
+
   return (
     <div className="container max-w-3xl rounded-xl bg-neutral60/10 px-8 py-2">
       {/* Questions */}
       <div className="flex flex-col divide-y divide-neutral60/20">
-        {questions.map(({ question, answer }, idx) => (
+        {displayedQuestions.map(({ question, answer }, idx) => (
           <div key={idx} className="py-6">
             <div
               className="flex items-center justify-between hover:cursor-pointer"
@@ -59,6 +62,17 @@ const FAQAccordion: React.FC<IFAQAccordion> = ({ questions }) => {
           </div>
         ))}
       </div>
+      {/* See More / See Less Button */}
+      {questions.length > 5 && (
+        <div className="py-4 text-center">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="font-bold text-primary hover:underline"
+          >
+            {showAll ? 'See Less' : 'See More'}
+          </button>
+        </div>
+      )}
     </div>
   )
 }
