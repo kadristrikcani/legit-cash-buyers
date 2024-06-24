@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto max-w-[1920px] px-4">
         <div className="relative flex items-center justify-between gap-12 pt-6 sm:flex-col sm:items-start sm:gap-8 sm:py-0 md:flex-col md:items-start md:gap-8 md:py-0">
           <div className="flex items-center justify-center gap-10">
-            <AppLogo size={isMobile ? 100 : 150} />
+            <AppLogo size={isMobile ? 80 : 110} />
             <div
               className="whitespace-pre-line text-[16px] font-medium leading-[160%] text-neutral60 sm:text-[14px]"
               dangerouslySetInnerHTML={{ __html: footerString.description }}
