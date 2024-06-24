@@ -19,7 +19,8 @@ const config: Config = {
       neutral60: '#757B8A',
       goldenrod: '#F37455',
       burntSienna: '#F37455',
-      yellow: '#F8D16E'
+      yellow: '#F8D16E',
+      darkenYellow: '#f5c037'
     },
     screens: {
       sm: { min: '0px', max: '576px' },

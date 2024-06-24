@@ -3,6 +3,7 @@
 import React from 'react'
 
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 
 import useTablet from '@src/hooks/useTablet'
 
@@ -10,6 +11,7 @@ import { featuresString } from '@src/lib/data/features'
 
 const Features: React.FC = () => {
   const isTablet: boolean = useTablet()
+  const router = useRouter()
 
   return (
     <section id="features" className="relative flex-1">
@@ -19,7 +21,8 @@ const Features: React.FC = () => {
             {featuresString.features.map((feature, index) => (
               <div
                 key={index}
-                className="min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl"
+                className="hover:bg-darkenYellow min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl hover:cursor-pointer hover:transition-all"
+                onClick={() => router.push(`${feature.url}`)}
               >
                 <div className="flex items-center justify-center">
                   <Image
