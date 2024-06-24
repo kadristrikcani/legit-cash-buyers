@@ -14,8 +14,10 @@ interface Props {
 }
 
 export const metadata: Metadata = {
-  title: 'Legit Cash Buyers',
-  description: '' // TODO: Add description
+  title:
+    'Sell Your House Fast for Cash | Legit Cash Buyers - Professional Service, Quick Cash',
+  description:
+    'Sell your home quickly and easily with Legit Cash Buyers. We buy houses for cash in any condition across the United States. No realtor fees, no commissions, no hassle. Get your cash offer today!'
 }
 
 export default function RootLayout({ children }: Props) {
