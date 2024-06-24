@@ -33,11 +33,17 @@ const Footer: React.FC = () => {
             ></div>
           </div>
 
-          <div className="absolute left-[45%] right-0 top-8 mx-auto">
-            <Image src="/bbb.png" alt="BBB" width={150} height={150} />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <Image
+              src="/google-review.svg"
+              alt="google review"
+              width={200}
+              height={200}
+              className="mx-auto"
+            />
           </div>
 
-          <div className="flex items-center justify-center gap-10">
+          <div className="flex items-center justify-center gap-16">
             <Image src="/bbb.png" alt="BBB" width={150} height={150} />
 
             <div className="pb-4">
