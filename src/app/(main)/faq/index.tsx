@@ -4,7 +4,11 @@ import { faqString } from '@src/lib/data/faq'
 
 import { FAQAccordion } from '@src/components'
 
-const FAQ: React.FC = () => {
+interface IFaq {
+  faqString: typeof faqString
+}
+
+const FAQ: React.FC<IFaq> = ({ faqString }) => {
   return (
     <section id="join-niche" className="relative flex-1">
       <div className="mx-auto mb-32 mt-16 flex flex-col items-center justify-center gap-[50px] sm:mx-[20px] sm:mb-16 sm:gap-[15px]">

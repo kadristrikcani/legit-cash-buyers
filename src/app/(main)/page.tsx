@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { faqString } from '@src/lib/data/faq'
+
 import FAQ from './faq'
 import Features from './features'
 import Hero from './hero'
@@ -11,7 +13,7 @@ const Home: React.FC = () => {
       <Hero />
       <Features />
       <Testimonials />
-      <FAQ />
+      <FAQ faqString={faqString} />
     </div>
   )
 }
