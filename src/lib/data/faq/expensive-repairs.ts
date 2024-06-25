@@ -2,7 +2,7 @@ export const expensiveRepairsFaqString = {
   title: `FAQ's`,
   faqs: [
     {
-      question: `Facing Foreclosure`,
+      question: `Expensive Repairs`,
       answer: `Typically, you can close the sale and receive your cash within 2-3 weeks, depending on your situation.`
     },
     {

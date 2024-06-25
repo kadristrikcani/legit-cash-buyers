@@ -2,7 +2,7 @@ export const divorceFaqString = {
   title: `FAQ's`,
   faqs: [
     {
-      question: `Facing Foreclosure`,
+      question: `Divorce`,
       answer: `Typically, you can close the sale and receive your cash within 2-3 weeks, depending on your situation.`
     },
     {
