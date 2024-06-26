@@ -5,11 +5,13 @@ import React from 'react'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 
+import useMobile from '@src/hooks/useMobile'
 import useTablet from '@src/hooks/useTablet'
 
 import { featuresString } from '@src/lib/data/features'
 
 const Features: React.FC = () => {
+  const isMobile: boolean = useMobile()
   const isTablet: boolean = useTablet()
   const router = useRouter()
 
@@ -21,7 +23,7 @@ const Features: React.FC = () => {
             {featuresString.features.map((feature, index) => (
               <div
                 key={index}
-                className="hover:bg-darkenYellow min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl hover:cursor-pointer hover:transition-all"
+                className="min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl hover:cursor-pointer hover:bg-darkenYellow hover:transition-all sm:min-h-[300px] sm:py-[20px]"
                 onClick={() => router.push(`${feature.url}`)}
               >
                 <div className="flex items-center justify-center">
@@ -33,10 +35,10 @@ const Features: React.FC = () => {
                   />
                 </div>
                 <h1 className="text-2xl text-[24px] font-semibold text-secondary sm:text-[22px]">
-                  {feature.title}
+                  {isMobile ? feature.mobile.title : feature.title}
                 </h1>
                 <p className="text-[16px] font-[500] text-secondary sm:text-[14px]">
-                  {feature.description}
+                  {isMobile ? feature.mobile.description : feature.description}
                 </p>
               </div>
             ))}
