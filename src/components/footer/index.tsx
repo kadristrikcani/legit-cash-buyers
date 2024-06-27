@@ -18,13 +18,13 @@ const Footer: React.FC = () => {
   return (
     <footer
       id="footer"
-      className="relative max-h-[275px] min-h-[275px] overflow-hidden px-4 py-6 sm:max-h-[735px] sm:min-h-[735px] sm:px-[10px] md:max-h-[600px] md:min-h-[600px] md:px-[10px]"
+      className="relative max-h-[275px] min-h-[275px] overflow-hidden px-4 py-6 sm:max-h-[480px] sm:min-h-[480px] sm:px-[10px] md:max-h-[600px] md:min-h-[600px] md:px-[10px]"
     >
       <div className="absolute left-[-10rem] top-[5rem] -z-10 h-[300px] w-[35rem] rounded-full bg-[goldenrod]/40 blur-[8rem]" />
       <div className="absolute right-[-5rem] top-[10rem] -z-10 h-[300px] w-[30rem] rounded-full bg-burntSienna/40 blur-[10rem]" />
 
       <div className="container mx-auto max-w-[1920px] px-4">
-        <div className="relative flex items-center justify-between gap-12 pt-6 sm:flex-col sm:items-start sm:gap-8 sm:py-0 md:flex-col md:items-start md:gap-8 md:py-0">
+        <div className="sm:items-star relative flex items-center justify-between gap-12 pt-6 sm:flex-col sm:gap-0 sm:py-0 md:flex-col md:items-start md:gap-8 md:py-0">
           <div className="flex items-center justify-center gap-10">
             <AppLogo size={isMobile ? 80 : 110} />
             <div
@@ -33,18 +33,18 @@ const Footer: React.FC = () => {
             ></div>
           </div>
 
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute inset-0 flex items-center justify-center sm:relative">
             <Image
               src="/google-review.svg"
               alt="google review"
-              width={200}
-              height={200}
+              width={isMobile ? 120 : 150}
+              height={isMobile ? 120 : 150}
               className="mx-auto"
             />
           </div>
 
-          <div className="flex items-center justify-center gap-16">
-            <Image src="/bbb.png" alt="BBB" width={150} height={150} />
+          <div className="flex items-center justify-center gap-16 sm:flex-col sm:gap-4">
+            <Image src="/bbb.png" alt="BBB" width={isMobile ? 120 : 150} height={150} />
 
             <div className="pb-4">
               <div data-tf-live="01J040DS9Z2FPQP91XDXC1WS2E"></div>

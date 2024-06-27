@@ -8,7 +8,7 @@ import TestimonialCarousel from '@src/components/testimonials'
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="relative flex flex-col justify-center overflow-hidden py-20">
+    <section className="relative flex flex-col justify-center overflow-hidden py-20 sm:pb-0">
       <div className="mx-auto w-full px-4 md:px-6">
         <div className="flex justify-center">
           <TestimonialCarousel testimonials={testimonials} />
