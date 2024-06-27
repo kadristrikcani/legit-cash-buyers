@@ -44,7 +44,13 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex items-center justify-center gap-16 sm:flex-col sm:gap-4">
-            <Image src="/bbb.png" alt="BBB" width={isMobile ? 120 : 150} height={150} />
+            <Image
+              src="/bbb.png"
+              alt="BBB"
+              className="rounded-[5px]"
+              width={isMobile ? 120 : 150}
+              height={150}
+            />
 
             <div className="pb-4">
               <div data-tf-live="01J040DS9Z2FPQP91XDXC1WS2E"></div>
