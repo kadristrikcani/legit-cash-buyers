@@ -25,7 +25,7 @@ const Header: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               color="secondary"
-              className="sm:px-5 sm:py-3 sm:text-[14px]"
+              className="sm:w-[175px] sm:px-5 sm:py-3 sm:text-[14px]"
             >
               <Image src="/phone.svg" alt="phone" width={21} height={21} />
               {headerString.buttonLinkText}

@@ -23,7 +23,7 @@ const Features: React.FC = () => {
             {featuresString.features.map((feature, index) => (
               <div
                 key={index}
-                className="min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl hover:cursor-pointer hover:bg-darkenYellow hover:transition-all sm:min-h-[300px] sm:py-[20px]"
+                className="min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl hover:cursor-pointer hover:bg-darkenYellow hover:transition-all sm:min-h-[300px] sm:px-[15px] sm:pb-[5px] sm:pt-[20px]"
                 onClick={() => router.push(`${feature.url}`)}
               >
                 <div className="flex items-center justify-center">

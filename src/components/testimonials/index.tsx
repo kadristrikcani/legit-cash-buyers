@@ -88,7 +88,7 @@ export default function FancyITestimonialsSlider({
               leaveTo="opacity-0 translate-x-4"
               beforeEnter={() => heightFix()}
             >
-              <div className="text-2xl font-bold text-secondary sm:text-[20px]">
+              <div className="text-2xl font-bold text-secondary sm:text-[18px]">
                 {testimonial.quote}
               </div>
             </Transition>
