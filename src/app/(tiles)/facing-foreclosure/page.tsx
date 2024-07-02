@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import FAQ from '@src/app/(main)/faq'
 import Hero from '@src/app/(main)/hero'
 
-import { facingForeclosureString } from '@src/lib/data/faq/facing-foreclosure'
+import { facingForeclosureString } from '@src/lib/data/tiles/facing-foreclosure'
 
 import { Footer, Header } from '@src/components'
 import Testimonials from '@src/components/testimonials'

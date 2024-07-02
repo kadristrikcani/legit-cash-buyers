@@ -3,7 +3,7 @@ import React from 'react'
 import FAQ from '@src/app/(main)/faq'
 import Hero from '@src/app/(main)/hero'
 
-import { divorceString } from '@src/lib/data/faq/divorce'
+import { divorceString } from '@src/lib/data/tiles/divorce'
 
 import { Footer, Header } from '@src/components'
 import Testimonials from '@src/components/testimonials'
