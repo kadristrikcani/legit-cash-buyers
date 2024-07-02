@@ -1,14 +1,19 @@
 import React from 'react'
 
 import FAQ from '@src/app/(main)/faq'
+import Hero from '@src/app/(main)/hero'
 
-import { nightmareTenantsFaqString } from '@src/lib/data/faq/nightmare-tenants'
+import { nightmareTenantsString } from '@src/lib/data/faq/nightmare-tenants'
+
+import Testimonials from '@src/components/testimonials'
 
 const NightmareTenants: React.FC = () => {
   return (
     <div className="flex min-h-screen flex-col overflow-hidden">
-      <h1>NightmareTenants</h1>
-      <FAQ faqString={nightmareTenantsFaqString} />
+      <Hero description={nightmareTenantsString.description} />
+      <h1>Nightmare Tenants</h1>
+      <Testimonials testimonials={nightmareTenantsString.testimonials} />
+      <FAQ faqString={nightmareTenantsString} />
     </div>
   )
 }
