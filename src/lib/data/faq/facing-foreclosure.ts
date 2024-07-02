@@ -1,4 +1,4 @@
-export const facingForeclosureFaqString = {
+export const facingForeclosureString = {
   title: `FAQ's`,
   description: `Facing foreclosure can be overwhelming and stressful.
    At Legit Cash Buyers, we understand the urgency and financial pressure
