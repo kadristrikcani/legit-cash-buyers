@@ -1,5 +1,6 @@
 export const facingForeclosureString = {
   title: `FAQ's`,
+  typeformId: '01J1T6XEGAVEN3WZGP3A4P1E2G',
   description: `Facing foreclosure can be overwhelming and stressful.
    At Legit Cash Buyers, we understand the urgency and financial pressure
    you're under. That’s why we offer a swift, fair, and straightforward solution

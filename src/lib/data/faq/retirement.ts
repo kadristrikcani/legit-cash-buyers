@@ -1,5 +1,6 @@
 export const retirementString = {
   title: `FAQ's`,
+  typeformId: '01J1TCJS512QK229GN9ETAKW1J',
   description: `Retirement is an exciting time to embark on new adventures
   and enjoy the fruits of your labor. If you’re looking to downsize, relocate,
   or simplify your living situation, Legit Cash Buyers offers a fast, fair,

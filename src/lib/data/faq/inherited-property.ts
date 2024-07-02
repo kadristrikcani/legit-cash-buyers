@@ -1,5 +1,6 @@
 export const inheritedPropertyString = {
   title: `FAQ's`,
+  typeformId: '01J1TC6YWGWPH7KMX70CF5HPJ8',
   description: `Inherited Property? - We Make Selling Easy! Inheriting
   a property can be both a blessing and a burden, especially if you live
   out of state or lack the time and resources to manage it. At Legit Cash Buyers,

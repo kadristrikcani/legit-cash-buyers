@@ -1,5 +1,6 @@
 export const expensiveRepairsString = {
   title: `FAQ's`,
+  typeformId: '01J1TCNEGY41XRCFRNEWC7VV33',
   description: `Facing expensive repairs can be daunting, especially if you 
   lack the time, resources, or desire to fix up your home. At Legit Cash Buyers,
   we offer a fast, fair, and hassle-free solution to help you sell your

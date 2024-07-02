@@ -1,5 +1,6 @@
 export const divorceString = {
   title: `FAQ's`,
+  typeformId: '01J1TCCYR40X69PRC954RD9YTW',
   description: `Divorce can be one of the most challenging times in your life,
   and the process of dividing assets can add to the stress. At Legit Cash Buyers,
   we offer a fast, fair, and hassle-free solution to help you sell your home quickly.

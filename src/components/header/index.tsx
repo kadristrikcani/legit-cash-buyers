@@ -1,9 +1,9 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Image from 'next/image'
-import Script from 'next/script'
+import { useRouter } from 'next/navigation'
 
 import useMobile from '@src/hooks/useMobile'
 
@@ -11,8 +11,54 @@ import { headerString } from '@src/lib/data/header'
 
 import { AppLogo, LinkButton } from '@src/components'
 
-const Header: React.FC = () => {
+interface IHeader {
+  typeformId: string
+}
+
+const Header: React.FC<IHeader> = ({ typeformId }) => {
   const isMobile: boolean = useMobile()
+  const router = useRouter()
+
+  useEffect(() => {
+    // Remove old script when component is unmounted
+    return () => {
+      const scriptElement = document.getElementById('typeform-script')
+      if (scriptElement) {
+        scriptElement.remove()
+      }
+    }
+  }, [])
+
+  useEffect(() => {
+    // Load script when route changes
+    const loadTypeformScript = async () => {
+      try {
+        const scriptElement = document.createElement('script')
+        scriptElement.id = 'typeform-script'
+        scriptElement.src = '//embed.typeform.com/next/embed.js'
+        scriptElement.async = true
+
+        document.body.appendChild(scriptElement)
+
+        return () => {
+          // Clean up when component unmounts or when script needs to be reloaded
+          document.body.removeChild(scriptElement)
+        }
+      } catch (error) {
+        console.error('Error loading Typeform script:', error)
+      }
+    }
+
+    loadTypeformScript()
+
+    return () => {
+      // Clean up when component unmounts
+      const scriptElement = document.getElementById('typeform-script')
+      if (scriptElement) {
+        scriptElement.remove()
+      }
+    }
+  }, [router])
 
   return (
     <header className="px-4 py-6 sm:px-2 sm:py-4">
@@ -32,8 +78,7 @@ const Header: React.FC = () => {
             </LinkButton>
 
             <div>
-              <div data-tf-live="01J040DS9Z2FPQP91XDXC1WS2E"></div>
-              <Script src="//embed.typeform.com/next/embed.js"></Script>
+              <div data-tf-live={typeformId} />
             </div>
           </div>
         </div>

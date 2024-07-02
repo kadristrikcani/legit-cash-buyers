@@ -1,5 +1,6 @@
 export const relocationString = {
   title: `FAQ's`,
+  typeformId: '01J1TC4H4Z2ZD3G6D7Y6XRSR8N',
   description: `Relocating can be an exciting yet stressful time,
    especially when you need to sell your home quickly. Whether you're
    moving for a new job, family reasons, or simply a change of scenery,

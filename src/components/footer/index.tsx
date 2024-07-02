@@ -1,10 +1,9 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Image from 'next/image'
 import Link from 'next/link'
-import Script from 'next/script'
 
 import useMobile from '@src/hooks/useMobile'
 
@@ -12,8 +11,53 @@ import { footerString } from '@src/lib/data/footer'
 
 import { AppLogo } from '@src/components'
 
-const Footer: React.FC = () => {
+interface IFooter {
+  typeformId: string
+}
+
+const Footer: React.FC<IFooter> = ({ typeformId }) => {
   const isMobile: boolean = useMobile()
+
+  useEffect(() => {
+    // Remove old script when component is unmounted
+    return () => {
+      const scriptElement = document.getElementById('typeform-script-footer')
+      if (scriptElement) {
+        scriptElement.remove()
+      }
+    }
+  }, [])
+
+  useEffect(() => {
+    // Load script when route changes
+    const loadTypeformScript = async () => {
+      try {
+        const scriptElement = document.createElement('script')
+        scriptElement.id = 'typeform-script-footer'
+        scriptElement.src = '//embed.typeform.com/next/embed.js'
+        scriptElement.async = true
+
+        document.body.appendChild(scriptElement)
+
+        return () => {
+          // Clean up when component unmounts or when script needs to be reloaded
+          document.body.removeChild(scriptElement)
+        }
+      } catch (error) {
+        console.error('Error loading Typeform script:', error)
+      }
+    }
+
+    loadTypeformScript()
+
+    return () => {
+      // Clean up when component unmounts
+      const scriptElement = document.getElementById('typeform-script-footer')
+      if (scriptElement) {
+        scriptElement.remove()
+      }
+    }
+  }, []) // No dependencies, so this only runs once
 
   return (
     <footer
@@ -53,8 +97,7 @@ const Footer: React.FC = () => {
             />
 
             <div className="pb-4">
-              <div data-tf-live="01J040DS9Z2FPQP91XDXC1WS2E"></div>
-              <Script src="//embed.typeform.com/next/embed.js"></Script>
+              <div data-tf-live={typeformId}></div>
             </div>
           </div>
         </div>

@@ -2,8 +2,7 @@ import React from 'react'
 
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-
-import { Footer, Header } from '@src/components'
+import Script from 'next/script'
 
 import './globals.css'
 
@@ -30,10 +29,7 @@ export default function RootLayout({ children }: Props) {
       <body className={`flex h-full flex-col ${inter.className}`}>
         <div className="absolute left-[-10rem] top-[-1rem] -z-10 h-[31.25rem] w-[68rem] rounded-full bg-burntSienna/30 blur-[10rem] sm:w-[500px] md:w-[600px] lg:left-[-8rem]" />
         <div className="absolute right-[0rem] top-[-6rem] -z-10 h-[31.25rem] w-[45rem] rounded-full bg-[goldenrod]/30 blur-[10rem] sm:w-[250px]" />
-
-        <Header />
         <div className="mx-auto flex-1 md:mx-[0px]">{children}</div>
-        <Footer />
       </body>
     </html>
   )

@@ -1,5 +1,6 @@
 export const nightmareTenantsString = {
   title: `FAQ's`,
+  typeformId: '01J1TCFVCZGPZ8S4S5R2TZMQQY',
   description: `Managing a rental property with troublesome tenants can
   be incredibly stressful and financially draining. At Legit Cash Buyers,
   we offer a fast, fair, and hassle-free solution to help you sell your

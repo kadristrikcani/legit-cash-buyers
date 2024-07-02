@@ -1,5 +1,6 @@
 export const downsizingString = {
   title: `FAQ's`,
+  typeformId: '01J1TC9VTW2EWAY4RMWE08MXBZ',
   description: `Downsizing can be a positive and liberating experience,
   allowing you to simplify your life and reduce expenses. At Legit Cash Buyers,
   we offer a fast, fair, and hassle-free solution to help you sell your
