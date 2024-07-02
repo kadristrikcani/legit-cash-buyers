@@ -2,11 +2,13 @@
 
 import React from 'react'
 
-import { testimonials } from '@src/lib/data/testimonials'
+import TestimonialCarousel, { ITestimonial } from '@src/components/testimonials'
 
-import TestimonialCarousel from '@src/components/testimonials'
+interface ITestimonialProps {
+  testimonials: ITestimonial[]
+}
 
-const Testimonials: React.FC = () => {
+const Testimonials: React.FC<ITestimonialProps> = ({ testimonials }) => {
   return (
     <section className="relative flex flex-col justify-center overflow-hidden py-20 sm:pb-0">
       <div className="mx-auto w-full px-4 md:px-6">

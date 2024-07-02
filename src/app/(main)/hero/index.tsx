@@ -4,9 +4,11 @@ import React from 'react'
 
 import Image from 'next/image'
 
-import { heroString } from '@src/lib/data/hero'
+interface IHero {
+  description: string
+}
 
-const Hero: React.FC = () => {
+const Hero: React.FC<IHero> = ({ description }) => {
   return (
     <section id="hero" className="relative flex-1">
       <div className="mx-auto flex flex-col items-center justify-center">
@@ -47,7 +49,7 @@ const Hero: React.FC = () => {
         </div>
 
         <p className="whitespace-pre-line text-center text-[32px] font-semibold text-secondary sm:mx-[20px] sm:whitespace-normal sm:text-[18px] md:text-[24px]">
-          {heroString.description}
+          {description}
         </p>
 
         <div className="group my-[150px] flex sm:my-[80px] md:my-[120px]">
