@@ -14,7 +14,10 @@ const ExpensiveRepairs: React.FC = () => {
       <Header typeformId={expensiveRepairsString.typeformId} />
 
       <Hero description={expensiveRepairsString.description} />
-      <h1>Expensive Repairs</h1>
+      <div
+        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        dangerouslySetInnerHTML={{ __html: expensiveRepairsString.content }}
+      />
       <Testimonials testimonials={expensiveRepairsString.testimonials} />
       <FAQ faqString={expensiveRepairsString} />
 

@@ -14,7 +14,10 @@ const InheritedProperty: React.FC = () => {
       <Header typeformId={inheritedPropertyString.typeformId} />
 
       <Hero description={inheritedPropertyString.description} />
-      <h1>Inherited Property</h1>
+      <div
+        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        dangerouslySetInnerHTML={{ __html: inheritedPropertyString.content }}
+      />
       <Testimonials testimonials={inheritedPropertyString.testimonials} />
       <FAQ faqString={inheritedPropertyString} />
 

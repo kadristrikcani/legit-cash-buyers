@@ -12,12 +12,13 @@ const Downsizing: React.FC = () => {
   return (
     <div className="flex min-h-screen flex-col overflow-hidden">
       <Header typeformId={downsizingString.typeformId} />
-
       <Hero description={downsizingString.description} />
-      <h1>Downsizing</h1>
+      <div
+        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        dangerouslySetInnerHTML={{ __html: downsizingString.content }}
+      />
       <Testimonials testimonials={downsizingString.testimonials} />
       <FAQ faqString={downsizingString} />
-
       <Footer typeformId={downsizingString.typeformId} />
     </div>
   )

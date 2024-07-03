@@ -91,5 +91,31 @@ export const relocationString = {
       question: `Can I sell a home that I inherited if I need to relocate?`,
       answer: `Yes, we can help you sell an inherited property quickly, providing you with the cash you need to facilitate your relocation.`
     }
-  ]
+  ],
+  content: `
+        <h1>Smooth, Stress-Free Home Sales for Relocation</h1>
+        <p>Relocating can bring a mix of excitement and stress, especially when it comes to selling your current home. At <span class="highlight">Legit Cash Buyers</span>, we specialize in helping homeowners like you sell their homes quickly and effortlessly, ensuring you can focus on your upcoming move.</p>
+
+    
+        <h2>Why Choose Legit Cash Buyers for Your Relocation?</h2>
+        <ul>
+            <li><strong>Fast Cash Offers:</strong> We understand the urgency of relocation. That’s why we provide quick cash offers to help you sell your home without delay.</li>
+            <li><strong>No Repairs Needed:</strong> Sell your home as-is. We buy houses in any condition, so you don’t have to worry about making repairs or improvements.</li>
+            <li><strong>Hassle-Free Process:</strong> Our streamlined process is designed to make selling your home simple and straightforward. Fill out our form, receive a call, sign a contract, and get your cash.</li>
+            <li><strong>No Hidden Fees:</strong> With Legit Cash Buyers, there are no realtor fees, commissions, or hidden costs. You receive the full cash offer we provide.</li>
+            <li><strong>Trusted Experience:</strong> With years of experience, we are committed to providing transparent and fair transactions, working with reputable local title companies to ensure everything goes smoothly.</li>
+        </ul>
+    
+        <h2>Our Relocation Process</h2>
+        <ul>
+            <li><strong>Fill Out the Form:</strong> Start by providing some basic information about your property.</li>
+            <li><strong>Receive a Call:</strong> One of our experienced team members will contact you to discuss your situation and needs.</li>
+            <li><strong>Get a Cash Offer:</strong> We’ll evaluate your property and present you with a fair cash offer.</li>
+            <li><strong>Close Quickly:</strong> Once you accept our offer, we’ll handle all the paperwork and close the sale quickly, usually within 2-3 weeks.</li>
+            <li><strong>Get Your Cash:</strong> Receive your cash payment and focus on your relocation with peace of mind.</li>
+        </ul>
+
+    
+        <p>Relocating doesn’t have to be stressful. Let <span class="highlight">Legit Cash Buyers</span> handle the sale of your home quickly and efficiently, so you can focus on your next chapter. <a href="contact.html">Contact us today</a> to get started.</p>
+  `
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 import FAQ from '@src/app/(main)/faq'
 import Hero from '@src/app/(main)/hero'
@@ -14,7 +14,10 @@ const FacingForeclosure: React.FC = () => {
       <Header typeformId={facingForeclosureString.typeformId} />
 
       <Hero description={facingForeclosureString.description} />
-      <h1>Facing Foreclosure</h1>
+      <div
+        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        dangerouslySetInnerHTML={{ __html: facingForeclosureString.content }}
+      />
       <Testimonials testimonials={facingForeclosureString.testimonials} />
       <FAQ faqString={facingForeclosureString} />
 

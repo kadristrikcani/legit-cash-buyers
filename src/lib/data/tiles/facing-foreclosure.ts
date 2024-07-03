@@ -90,5 +90,36 @@ export const facingForeclosureString = {
       question: `What happens if I have equity in my home?`,
       answer: `If you have equity in your home, you will receive the amount remaining after paying off your mortgage and any other liens or obligations. Our cash offer will reflect the value of your equity, providing you with a fair return.`
     }
-  ]
+  ],
+  content: `
+  <h1>Facing Foreclosure? We're Here to Help.</h1>
+  <p>Foreclosure can be an overwhelming and distressing experience, leaving many homeowners feeling helpless and trapped. The constant pressure from mortgage lenders, the fear of losing your home, and the impact on your credit can be incredibly stressful.</p>
+
+  <h2>Common Struggles with Foreclosure:</h2>
+  <ul>
+    <li><strong>Financial Stress:</strong> Falling behind on mortgage payments due to job loss, medical bills, or other financial hardships.</li>
+    <li><strong>Time Pressure:</strong> The foreclosure process moves quickly, often leaving little time to find a solution.</li>
+    <li><strong>Emotional Toll:</strong> The fear and uncertainty of potentially losing your home can take a significant emotional toll on you and your family.</li>
+    <li><strong>Impact on Credit:</strong> Foreclosure can severely damage your credit score, making it difficult to secure future housing or loans.</li>
+  </ul>
+
+  <h2>How Legit Cash Buyers Can Help</h2>
+  <p>At Legit Cash Buyers, we understand the urgency and gravity of facing foreclosure. We offer a fast, fair, and hassle-free solution to help you sell your home quickly and avoid foreclosure. Here’s how we can assist:</p>
+  <ul>
+    <li><strong>Quick Cash Offers:</strong> We provide a fair cash offer for your home, allowing you to avoid foreclosure and get the funds you need promptly.</li>
+    <li><strong>Simple Process:</strong> Our process is straightforward—fill out the form, receive a call, sign a contract, and get your cash. We handle all the paperwork and details.</li>
+    <li><strong>No Repairs Needed:</strong> We buy homes in any condition, so you don't need to worry about costly repairs or clean-ups.</li>
+    <li><strong>Experienced Team:</strong> With years of experience, we work with well-known local title companies to ensure a smooth and transparent transaction.</li>
+  </ul>
+
+  <h2>Other Options to Stop Foreclosure</h2>
+  <p>In addition to selling your home quickly for cash, you may have several other options to consider:</p>
+  <ul>
+    <li><strong>Loan Modification:</strong> Renegotiate the terms of your loan to make the payments more manageable.</li>
+    <li><strong>Repayment Plan:</strong> Work with your lender to create a plan to catch up on missed payments.</li>
+    <li><strong>Refinancing:</strong> Refinance your mortgage to lower your monthly payments and make them more affordable.</li>
+    <li><strong>Short Sale:</strong> Sell your home for less than the amount owed on your mortgage with your lender’s approval.</li>
+  </ul>
+
+  <p>If you’re facing foreclosure, don't wait. Contact Legit Cash Buyers today to explore your options and find the best solution for your situation. We're here to help you navigate this challenging time and provide a path to financial stability.</p>`
 }

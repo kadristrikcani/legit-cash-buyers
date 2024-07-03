@@ -14,7 +14,10 @@ const NightmareTenants: React.FC = () => {
       <Header typeformId={nightmareTenantsString.typeformId} />
 
       <Hero description={nightmareTenantsString.description} />
-      <h1>Nightmare Tenants</h1>
+      <div
+        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        dangerouslySetInnerHTML={{ __html: nightmareTenantsString.content }}
+      />
       <Testimonials testimonials={nightmareTenantsString.testimonials} />
       <FAQ faqString={nightmareTenantsString} />
 

@@ -111,5 +111,27 @@ export const nightmareTenantsString = {
       answer:
         'Yes, we can help you sell a rental property with nightmare tenants even if it is located in another state. Our process can be handled remotely, making it convenient for you.'
     }
-  ]
+  ],
+  content: `
+        <h1>Sell Your Rental Property with Problem Tenants Quickly and Easily</h1>
+        <p>Dealing with nightmare tenants can be a landlord’s worst nightmare, causing financial strain, property damage, and endless stress. At <span class="highlight">Legit Cash Buyers</span>, we understand the challenges you face and offer a quick, fair, and hassle-free solution to help you sell your rental property.</p>
+    
+        <h2>Why Choose Legit Cash Buyers for Your Rental Property Sale?</h2>
+        <ul>
+            <li><strong>Fast Cash Offers:</strong> Receive a fair cash offer within days, allowing you to avoid the lengthy process of traditional home sales.</li>
+            <li><strong>No Repairs Needed:</strong> We buy properties in any condition, so you can sell your rental as-is without worrying about costly repairs or improvements.</li>
+            <li><strong>Hassle-Free Process:</strong> Our streamlined process involves filling out a form, receiving a call, signing a contract, and getting your cash.</li>
+            <li><strong>No Hidden Fees:</strong> With Legit Cash Buyers, there are no realtor fees, commissions, or hidden costs. You receive the full cash offer we provide.</li>
+            <li><strong>Trusted Experience:</strong> With years of experience, we work with reputable local title companies to ensure a smooth and transparent transaction.</li>
+        </ul>
+    
+        <h2>Our Nightmare Tenants Property Selling Process</h2>
+        <ul>
+            <li><strong>Fill Out the Form:</strong> Provide us with some basic information about your property.</li>
+            <li><strong>Receive a Call:</strong> One of our experienced team members will contact you to discuss your situation and needs.</li>
+            <li><strong>Get a Cash Offer:</strong> We’ll evaluate your property and present you with a fair cash offer.</li>
+            <li><strong>Close Quickly:</strong> Once you accept our offer, we’ll handle all the paperwork and close the sale quickly, usually within 2-3 weeks.</li>
+            <li><strong>Get Your Cash:</strong> Receive your cash payment and move forward with peace of mind.</li>
+        </ul>  
+  `
 }

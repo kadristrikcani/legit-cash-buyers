@@ -14,7 +14,10 @@ const Retirement: React.FC = () => {
       <Header typeformId={retirementString.typeformId} />
 
       <Hero description={retirementString.description} />
-      <h1>Retirement</h1>
+      <div
+        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        dangerouslySetInnerHTML={{ __html: retirementString.content }}
+      />
       <Testimonials testimonials={retirementString.testimonials} />
       <FAQ faqString={retirementString} />
 

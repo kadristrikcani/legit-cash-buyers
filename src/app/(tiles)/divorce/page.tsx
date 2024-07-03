@@ -12,12 +12,13 @@ const Divorce: React.FC = () => {
   return (
     <div className="flex min-h-screen flex-col overflow-hidden">
       <Header typeformId={divorceString.typeformId} />
-
       <Hero description={divorceString.description} />
-      <h1>Divorce</h1>
+      <div
+        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        dangerouslySetInnerHTML={{ __html: divorceString.content }}
+      />
       <Testimonials testimonials={divorceString.testimonials} />
       <FAQ faqString={divorceString} />
-
       <Footer typeformId={divorceString.typeformId} />
     </div>
   )

@@ -14,7 +14,10 @@ const Relocation: React.FC = () => {
       <Header typeformId={relocationString.typeformId} />
 
       <Hero description={relocationString.description} />
-      <h1>Relocation</h1>
+      <div
+        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        dangerouslySetInnerHTML={{ __html: relocationString.content }}
+      />
       <Testimonials testimonials={relocationString.testimonials} />
       <FAQ faqString={relocationString} />
 
