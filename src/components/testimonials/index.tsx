@@ -74,7 +74,7 @@ export default function FancyITestimonialsSlider({
       </div>
 
       {/* Text */}
-      <div className="mb-5 transition-all delay-300 duration-150 ease-in-out">
+      <div className="mb-5 transition-all delay-300 duration-150 ease-in-out sm:mx-3">
         <div className="relative flex flex-col" ref={testimonialsRef}>
           {testimonials.map((testimonial, index) => (
             <Transition
