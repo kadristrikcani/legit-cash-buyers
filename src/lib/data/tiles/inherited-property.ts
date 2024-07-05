@@ -117,22 +117,21 @@ export const inheritedPropertyString = {
   <p>Inheriting a property can come with its own set of challenges, from maintenance and repairs to dealing with distant locations and emotional attachments. At Legit Cash Buyers, we simplify the process of selling your inherited home, providing you with a quick, fair cash offer and taking care of all the details.</p>
 
   <div class='tiles-row'>
-  <ul class="tiles-card"> <h2>Why Choose Legit Cash Buyers for Your Inherited Property?</h2>
+  <div class="tiles-card"> <h2>Why Choose Legit Cash Buyers for Your Inherited Property?</h2> <ul>
     <li><strong>Fast Cash Offers:</strong> Get a fair cash offer within days, allowing you to avoid the hassle of traditional home sales.</li>
     <li><strong>No Repairs Needed:</strong> We buy homes in any condition, so you don’t need to worry about costly repairs or improvements.</li>
     <li><strong>Hassle-Free Process:</strong> Our simple, straightforward process involves filling out a form, receiving a call, signing a contract, and getting your cash.</li>
     <li><strong>No Hidden Fees:</strong> With Legit Cash Buyers, there are no realtor fees, commissions, or hidden costs. You receive the full cash offer we provide.</li>
     <li><strong>Trusted Experience:</strong> With years of experience, we work with reputable local title companies to ensure a smooth and transparent transaction.</li>
-  </ul>
+  </ul> </div>
   
-  <ul class="tiles-card"> <h2>Our Inherited Property Selling Process</h2>
+  <div class="tiles-card"> <h2>Our Inherited Property Selling Process</h2> <ul>
     <li><strong>Fill Out the Form:</strong> Provide us with some basic information about the property.</li>
     <li><strong>Receive a Call:</strong> One of our experienced team members will contact you to discuss your situation and needs.</li>
     <li><strong>Get a Cash Offer:</strong> We’ll evaluate the property and present you with a fair cash offer.</li>
     <li><strong>Close Quickly:</strong> Once you accept our offer, we’ll handle all the paperwork and close the sale quickly, usually within 2-3 weeks.</li>
     <li><strong>Get Your Cash:</strong> Receive your cash payment and move forward with peace of mind.</li>
-  </ul>
-  </div>
+  </ul> </div>
   </div>
   `
 }

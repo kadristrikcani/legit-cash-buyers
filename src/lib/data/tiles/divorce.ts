@@ -115,15 +115,15 @@ export const divorceString = {
         <p>Divorce is a challenging and emotional process, and selling your home can add to the stress. At <span class="highlight">Legit Cash Buyers</span>, we understand the need for a quick and fair solution to help you move forward. Our team is committed to providing a fast, hassle-free home selling experience so you can focus on the next chapter of your life.</p>
       
         <div class='tiles-row'>
-        <ul class="tiles-card"> <h2>Why Choose Legit Cash Buyers for Your Divorce Home Sale?</h2>
+       <div class="tiles-card"> <h2>Why Choose Legit Cash Buyers for Your Divorce Home Sale?</h2> <ul>
             <li><strong>Fast Cash Offers:</strong> Receive a fair cash offer within days, allowing you to avoid the lengthy process of traditional home sales.</li>
             <li><strong>No Repairs Needed:</strong> We buy homes in any condition, so you can sell your property as-is without worrying about costly repairs or improvements.</li>
             <li><strong>Hassle-Free Process:</strong> Our streamlined process involves filling out a form, receiving a call, signing a contract, and getting your cash.</li>
             <li><strong>No Hidden Fees:</strong> With Legit Cash Buyers, there are no realtor fees, commissions, or hidden costs. You receive the full cash offer we provide.</li>
             <li><strong>Trusted Experience:</strong> With years of experience, we work with reputable local title companies to ensure a smooth and transparent transaction.</li>
-        </ul>
+        </ul> </div>
     
-        <ul class="tiles-card"> <h2>Our Divorce Home Selling Process</h2>
+       <div class="tiles-card"> <h2>Our Divorce Home Selling Process</h2> <ul>
             <li><strong>Fill Out the Form:</strong> Provide us with some basic information about your property.</li>
             <li><strong>Receive a Call:</strong> One of our experienced team members will contact you to discuss your situation and needs.</li>
             <li><strong>Get a Cash Offer:</strong> We’ll evaluate your property and present you with a fair cash offer.</li>

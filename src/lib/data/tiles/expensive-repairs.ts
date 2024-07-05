@@ -114,15 +114,15 @@ export const expensiveRepairsString = {
   <p>Home repairs can be expensive and time-consuming, leaving many homeowners feeling stuck. At Legit Cash Buyers, we understand the burden of costly repairs and offer a simple, fast, and fair solution to sell your home as-is. Our goal is to help you move forward without the stress of fixing up your property.</p>
 
   <div class='tiles-row'>
-  <ul class="tiles-card"> <h2>Why Choose Legit Cash Buyers for Your Home Sale?</h2>
+   <div class="tiles-card">  <h2>Why Choose Legit Cash Buyers for Your Home Sale?</h2> <ul>
     <li><strong>Fast Cash Offers:</strong> Receive a fair cash offer within days, avoiding the lengthy process of traditional home sales.</li>
     <li><strong>No Repairs Needed:</strong> We buy homes in any condition, so you can sell your property as-is without worrying about costly repairs or improvements.</li>
     <li><strong>Hassle-Free Process:</strong> Our streamlined process involves filling out a form, receiving a call, signing a contract, and getting your cash.</li>
     <li><strong>No Hidden Fees:</strong> With Legit Cash Buyers, there are no realtor fees, commissions, or hidden costs. You receive the full cash offer we provide.</li>
     <li><strong>Trusted Experience:</strong> With years of experience, we work with reputable local title companies to ensure a smooth and transparent transaction.</li>
-  </ul>
+  </ul> </div>
 
-  <ol class="tiles-card"> <h2>Our Home Selling Process</h2>
+  <div class="tiles-card"> <h2>Our Home Selling Process</h2> <ol> 
     <li><strong>Fill Out the Form:</strong> Provide us with some basic information about your property.</li>
     <li><strong>Receive a Call:</strong> One of our experienced team members will contact you to discuss your situation and needs.</li>
     <li><strong>Get a Cash Offer:</strong> We’ll evaluate your property and present you with a fair cash offer.</li>
