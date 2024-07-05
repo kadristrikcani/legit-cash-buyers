@@ -15,7 +15,7 @@ const Retirement: React.FC = () => {
 
       <Hero description={retirementString.description} />
       <div
-        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        className="text-break mx-[8%] mb-20 whitespace-pre-line text-[16px] sm:text-[14px]"
         dangerouslySetInnerHTML={{ __html: retirementString.content }}
       />
       <Testimonials testimonials={retirementString.testimonials} />

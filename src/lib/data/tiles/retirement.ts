@@ -110,11 +110,12 @@ export const retirementString = {
     }
   ],
   content: `
-        <h1>Sell Your Home Fast and Fairly for Retirement</h1>
+   <div class="tiles-content">
+       <h1 class="tiles-title">Sell Your Home Fast and Fairly for Retirement</h1>
         <p>Retirement is a time to relax, explore new interests, and spend time with loved ones. If selling your home is part of your retirement plan, <span class="highlight">Legit Cash Buyers</span> is here to make the process easy and stress-free. We buy homes quickly and fairly, so you can focus on enjoying your retirement.</p>
     
-        <h2>Why Choose Legit Cash Buyers for Your Retirement Home Sale?</h2>
-        <ul>
+          <div class='tiles-row'>
+          <ul class="tiles-card"> <h2>Why Choose Legit Cash Buyers for Your Retirement Home Sale?</h2>
             <li><strong>Fast Cash Offers:</strong> Receive a fair cash offer within days, avoiding the lengthy process of traditional home sales.</li>
             <li><strong>No Repairs Needed:</strong> We buy homes in any condition, so you can sell your property as-is without worrying about costly repairs or improvements.</li>
             <li><strong>Hassle-Free Process:</strong> Our streamlined process involves filling out a form, receiving a call, signing a contract, and getting your cash.</li>
@@ -122,13 +123,13 @@ export const retirementString = {
             <li><strong>Trusted Experience:</strong> With years of experience, we work with reputable local title companies to ensure a smooth and transparent transaction.</li>
         </ul>
     
-        <h2>Our Retirement Home Selling Process</h2>
-        <ul>
+        <ul class="tiles-card"> <h2>Our Retirement Home Selling Process</h2>
             <li><strong>Fill Out the Form:</strong> Provide us with some basic information about your property.</li>
             <li><strong>Receive a Call:</strong> One of our experienced team members will contact you to discuss your situation and needs.</li>
             <li><strong>Get a Cash Offer:</strong> We’ll evaluate your property and present you with a fair cash offer.</li>
             <li><strong>Close Quickly:</strong> Once you accept our offer, we’ll handle all the paperwork and close the sale quickly, usually within 2-3 weeks.</li>
             <li><strong>Get Your Cash:</strong> Receive your cash payment and move forward with your retirement plans with peace of mind.</li>
         </ul>
+    </div>
   `
 }

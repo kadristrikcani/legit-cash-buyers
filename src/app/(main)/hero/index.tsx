@@ -52,7 +52,7 @@ const Hero: React.FC<IHero> = ({ description }) => {
           {description}
         </p>
 
-        <div className="group my-[150px] flex sm:my-[80px] md:my-[120px]">
+        <div className="group my-[130px] flex sm:my-[80px] md:my-[120px]">
           <div className="group-hover:paused flex animate-loop-scroll">
             <Image src="/hero.svg" alt="Hero img" height={100} width={1000} />
             <Image src="/hero.svg" alt="Hero img" height={100} width={1000} />

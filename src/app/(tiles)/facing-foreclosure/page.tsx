@@ -15,7 +15,7 @@ const FacingForeclosure: React.FC = () => {
 
       <Hero description={facingForeclosureString.description} />
       <div
-        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        className="text-break mx-[8%] mb-20 whitespace-pre-line text-[16px] sm:text-[14px]"
         dangerouslySetInnerHTML={{ __html: facingForeclosureString.content }}
       />
       <Testimonials testimonials={facingForeclosureString.testimonials} />

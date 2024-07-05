@@ -15,7 +15,7 @@ const Relocation: React.FC = () => {
 
       <Hero description={relocationString.description} />
       <div
-        className="text-break mx-auto mb-20 max-w-[50%] whitespace-pre-line text-[16px] sm:text-[14px]"
+        className="text-break mx-[8%] mb-20 whitespace-pre-line text-[16px] sm:text-[14px]"
         dangerouslySetInnerHTML={{ __html: relocationString.content }}
       />
       <Testimonials testimonials={relocationString.testimonials} />
