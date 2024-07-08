@@ -19,7 +19,6 @@ const Footer: React.FC<IFooter> = ({ typeformId }) => {
   const isMobile: boolean = useMobile()
 
   useEffect(() => {
-    // Remove old script when component is unmounted
     return () => {
       const scriptElement = document.getElementById('typeform-script-footer')
       if (scriptElement) {
@@ -29,7 +28,6 @@ const Footer: React.FC<IFooter> = ({ typeformId }) => {
   }, [])
 
   useEffect(() => {
-    // Load script when route changes
     const loadTypeformScript = async () => {
       try {
         const scriptElement = document.createElement('script')
@@ -40,7 +38,6 @@ const Footer: React.FC<IFooter> = ({ typeformId }) => {
         document.body.appendChild(scriptElement)
 
         return () => {
-          // Clean up when component unmounts or when script needs to be reloaded
           document.body.removeChild(scriptElement)
         }
       } catch (error) {
@@ -51,13 +48,12 @@ const Footer: React.FC<IFooter> = ({ typeformId }) => {
     loadTypeformScript()
 
     return () => {
-      // Clean up when component unmounts
       const scriptElement = document.getElementById('typeform-script-footer')
       if (scriptElement) {
         scriptElement.remove()
       }
     }
-  }, []) // No dependencies, so this only runs once
+  }, [])
 
   return (
     <footer
@@ -70,11 +66,11 @@ const Footer: React.FC<IFooter> = ({ typeformId }) => {
       <div className="container mx-auto max-w-[1920px] px-4">
         <div className="sm:items-star relative flex items-center justify-between gap-12 pt-6 sm:flex-col sm:gap-0 sm:py-0 md:flex-col md:items-start md:gap-8 md:py-0">
           <div className="flex items-center justify-center gap-10">
-            <AppLogo size={isMobile ? 80 : 110} />
+            <AppLogo size={isMobile ? 80 : 100} />
             <div
               className="whitespace-pre-line text-[16px] font-medium leading-[160%] text-neutral60 sm:text-[14px]"
               dangerouslySetInnerHTML={{ __html: footerString.description }}
-            ></div>
+            />
           </div>
 
           <div className="absolute inset-0 flex items-center justify-center sm:relative">

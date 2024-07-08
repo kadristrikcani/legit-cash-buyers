@@ -7,11 +7,11 @@ interface IAppLogoProps {
   size?: number
 }
 
-const AppLogo: FC<IAppLogoProps> = ({ size = 108 }) => {
+const AppLogo: FC<IAppLogoProps> = ({ size = 100 }) => {
   return (
     <Link
       href="/"
-      className={`bg-transparent relative flex h-[${size + 15}] w-[${size + 15}] items-center justify-center rounded-full border-[3px] border-primary p-[4px]`}
+      className={`bg-transparent relative flex items-center justify-center rounded-full border-[3px] border-primary p-[4px]`}
     >
       <Image
         src="/logo/app-logo.svg"
@@ -19,7 +19,12 @@ const AppLogo: FC<IAppLogoProps> = ({ size = 108 }) => {
         width="0"
         height="0"
         sizes="100vw"
-        style={{ width: `${size}px`, height: `${size}px` }}
+        style={{
+          width: `${size}px`,
+          height: `${size}px`,
+          maxWidth: `${size}px`,
+          maxHeight: `${size}px`
+        }}
       />
     </Link>
   )

@@ -5,15 +5,15 @@ import { heroString } from '@src/lib/data/hero'
 import { testimonials } from '@src/lib/data/testimonials'
 
 import FAQ from './faq'
-import Features from './features'
 import Hero from './hero'
 import Testimonials from './testimonials'
+import Tiles from './tiles'
 
 const Home: React.FC = () => {
   return (
     <div className="flex min-h-screen flex-col overflow-hidden">
       <Hero description={heroString.description} />
-      <Features />
+      <Tiles />
       <Testimonials testimonials={testimonials} />
       <FAQ faqString={faqString} />
     </div>

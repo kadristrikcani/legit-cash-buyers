@@ -1,9 +1,9 @@
-export const featuresString = {
-  features: [
+export const tilesString = {
+  tiles: [
     {
       title: `Facing Foreclosure`,
       description: `Don't lose your home to foreclosure. We can provide a fast, fair cash offer to help you avoid financial distress.`,
-      img: '/features/law.svg',
+      img: '/tiles/law.svg',
       url: '/facing-foreclosure',
       mobile: {
         title: 'Foreclosure',
@@ -13,7 +13,7 @@ export const featuresString = {
     {
       title: `Relocation`,
       description: `Need to move fast? We offer quick cash deals to help you relocate without the stress of a prolonged home sale.`,
-      img: '/features/globe.svg',
+      img: '/tiles/globe.svg',
       url: '/relocation',
       mobile: {
         title: 'Relocation',
@@ -23,7 +23,7 @@ export const featuresString = {
     {
       title: `Inherited Property`,
       description: `Selling an inherited property has never been easier. Get quick cash without the hassle of managing or repairing the home.`,
-      img: '/features/document-edit.svg',
+      img: '/tiles/document-edit.svg',
       url: '/inherited-property',
       mobile: {
         title: 'Inheritance',
@@ -33,7 +33,7 @@ export const featuresString = {
     {
       title: `Downsizing`,
       description: `Looking to downsize your living space? We offer cash for your current home, allowing you to move on with ease.`,
-      img: '/features/tag-sale.svg',
+      img: '/tiles/tag-sale.svg',
       url: '/downsizing',
       mobile: {
         title: 'Downsizing',
@@ -43,7 +43,7 @@ export const featuresString = {
     {
       title: `Divorce`,
       description: `Simplify the process of dividing assets during a divorce. We buy homes quickly, providing fair and hassle-free transactions.`,
-      img: 'features/person-error.svg',
+      img: 'tiles/person-error.svg',
       url: '/divorce',
       mobile: {
         title: 'Divorce',
@@ -53,7 +53,7 @@ export const featuresString = {
     {
       title: `Nightmare Tenants`,
       description: `Tired of dealing with bad tenants? Sell your rental property quickly and effortlessly, regardless of tenant issues.`,
-      img: '/features/house.svg',
+      img: '/tiles/house.svg',
       url: '/nightmare-tenants',
       mobile: {
         title: 'Tenants',
@@ -63,7 +63,7 @@ export const featuresString = {
     {
       title: `Retirement`,
       description: `Ready to downsize or move to a retirement community? Sell your home for cash and make your transition smoother.`,
-      img: 'features/contact-book.svg',
+      img: 'tiles/contact-book.svg',
       url: '/retirement',
       mobile: {
         title: 'Retirement',
@@ -73,7 +73,7 @@ export const featuresString = {
     {
       title: `Expensive Repairs`,
       description: `No need to invest in costly repairs. We buy homes in any condition, providing you with a fair cash offer.`,
-      img: '/features/wrench.svg',
+      img: '/tiles/wrench.svg',
       url: '/expensive-repairs',
       mobile: {
         title: 'Repairs',
