@@ -4,6 +4,8 @@ import React from 'react'
 
 import Image from 'next/image'
 
+import { heroString } from '@src/lib/data/hero'
+
 interface IHero {
   description: string
 }
@@ -19,7 +21,7 @@ const Hero: React.FC<IHero> = ({ description }) => {
                 fill
                 priority
                 className="rounded-full sm:rounded-none"
-                src="/hero-person.png"
+                src={heroString.heroImageURL}
                 alt="Hero Image"
                 style={{ objectFit: 'contain' }}
               />

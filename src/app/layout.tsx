@@ -2,7 +2,7 @@ import React from 'react'
 
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Script from 'next/script'
+import Head from 'next/head'
 
 import './globals.css'
 
@@ -22,13 +22,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="en" className="h-full !scroll-smooth">
-      <head>
+      <Head>
         <link rel="icon" href="/icon.ico" sizes="any" />
-      </head>
+      </Head>
 
       <body className={`flex h-full flex-col ${inter.className}`}>
-        <div className="absolute left-[-10rem] top-[-1rem] -z-10 h-[31.25rem] w-[68rem] rounded-full bg-burntSienna/30 blur-[10rem] sm:w-[500px] md:w-[600px] lg:left-[-8rem]" />
-        <div className="absolute right-[0rem] top-[-6rem] -z-10 h-[31.25rem] w-[45rem] rounded-full bg-[goldenrod]/30 blur-[10rem] sm:w-[250px]" />
         <div className="mx-auto flex-1 md:mx-[0px]">{children}</div>
       </body>
     </html>

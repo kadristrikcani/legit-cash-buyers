@@ -9,19 +9,18 @@ interface IAppLogoProps {
 
 const AppLogo: FC<IAppLogoProps> = ({ size = 108 }) => {
   return (
-    <Link href="/">
-      <div
-        className={`bg-transparent relative flex h-[${size + 15}] w-[${size + 15}] items-center justify-center rounded-full border-[3px] border-primary p-[4px]`}
-      >
-        <Image
-          src="/logo/app-logo.svg"
-          alt="logo"
-          width="0"
-          height="0"
-          sizes="100vw"
-          style={{ width: `${size}px`, height: `${size}px` }}
-        />
-      </div>
+    <Link
+      href="/"
+      className={`bg-transparent relative flex h-[${size + 15}] w-[${size + 15}] items-center justify-center rounded-full border-[3px] border-primary p-[4px]`}
+    >
+      <Image
+        src="/logo/app-logo.svg"
+        alt="logo"
+        width="0"
+        height="0"
+        sizes="100vw"
+        style={{ width: `${size}px`, height: `${size}px` }}
+      />
     </Link>
   )
 }
