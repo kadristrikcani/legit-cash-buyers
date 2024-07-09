@@ -58,22 +58,22 @@ const Footer: React.FC<IFooter> = ({ typeformId }) => {
   return (
     <footer
       id="footer"
-      className="relative max-h-[275px] min-h-[275px] overflow-hidden px-4 py-6 sm:max-h-[480px] sm:min-h-[480px] sm:px-[10px] md:max-h-[600px] md:min-h-[600px] md:px-[10px]"
+      className="relative max-h-[275px] min-h-[275px] overflow-hidden px-4 py-6 sm:max-h-[480px] sm:min-h-[480px] sm:px-[10px] md:max-h-[520px] md:min-h-[520px] md:px-[10px]"
     >
       <div className="absolute left-[-10rem] top-[5rem] -z-10 h-[300px] w-[35rem] rounded-full bg-[goldenrod]/40 blur-[8rem]" />
       <div className="absolute right-[-5rem] top-[10rem] -z-10 h-[300px] w-[30rem] rounded-full bg-burntSienna/40 blur-[10rem]" />
 
       <div className="container mx-auto max-w-[1920px] px-4">
-        <div className="sm:items-star relative flex items-center justify-between gap-12 pt-6 sm:flex-col sm:gap-0 sm:py-0 md:flex-col md:items-start md:gap-8 md:py-0">
-          <div className="flex items-center justify-center gap-10">
+        <div className="md: relative flex items-center justify-between gap-12 pt-6 sm:flex-col sm:gap-0 sm:py-0 md:flex-col md:items-center md:gap-0">
+          <div className="flex items-center justify-center gap-10 md:gap-4">
             <AppLogo size={isMobile ? 80 : 100} />
             <div
-              className="whitespace-pre-line text-[16px] font-medium leading-[160%] text-neutral60 sm:text-[14px]"
+              className="whitespace-pre-line text-[16px] font-medium leading-[160%] text-neutral60 sm:text-[14px] md:text-[14px]"
               dangerouslySetInnerHTML={{ __html: footerString.description }}
             />
           </div>
 
-          <div className="absolute inset-0 flex items-center justify-center sm:relative">
+          <div className="absolute inset-0 flex items-center justify-center sm:relative md:relative">
             <Image
               src="/google-review.svg"
               alt="google review"
@@ -83,7 +83,7 @@ const Footer: React.FC<IFooter> = ({ typeformId }) => {
             />
           </div>
 
-          <div className="flex items-center justify-center gap-16 sm:flex-col sm:gap-4">
+          <div className="flex items-center justify-center gap-16 sm:flex-col sm:gap-4 md:gap-32">
             <Image
               src="/bbb.png"
               alt="BBB"

@@ -14,8 +14,8 @@ const Hero: React.FC<IHero> = ({ description }) => {
   return (
     <section id="hero" className="relative flex-1">
       <div className="mx-auto flex flex-col items-center justify-center">
-        <div className="mb-[120px] mt-16 flex gap-32 sm:mb-[50px] sm:flex-col-reverse sm:gap-16 md:gap-12 md:px-4">
-          <div className="bg-transparent relative h-[500px] w-[500px] rounded-full border-[4px] border-primary p-[7px] sm:mx-auto sm:h-[300px] sm:w-[100%] sm:rounded-b-[50%] sm:border-b-0 md:h-[350px] md:w-[350px]">
+        <div className="mb-[120px] mt-16 flex gap-32 sm:mb-[50px] sm:flex-col-reverse sm:gap-16 md:gap-8 md:px-4">
+          <div className="bg-transparent relative h-[500px] w-[500px] rounded-full border-[4px] border-primary p-[7px] sm:mx-auto sm:h-[300px] sm:w-[100%] sm:rounded-b-[50%] sm:border-b-0 md:h-[300px] md:w-[300px]">
             <div className="relative mx-auto h-[100%] rounded-full bg-primary sm:rounded-b-lg">
               <Image
                 fill
@@ -29,7 +29,7 @@ const Hero: React.FC<IHero> = ({ description }) => {
           </div>
 
           <div className="flex flex-col items-center justify-center">
-            <div className="relative h-[50px] w-[600px] sm:w-[90vw]">
+            <div className="relative h-[50px] w-[600px] sm:w-[90vw] md:w-[400px]">
               <Image
                 fill
                 className="h-full w-full object-cover"
@@ -39,7 +39,7 @@ const Hero: React.FC<IHero> = ({ description }) => {
               />
             </div>
 
-            <div className="relative h-[80px] w-[620px] sm:h-[40px] sm:w-[90vw]">
+            <div className="relative h-[80px] w-[620px] sm:h-[40px] sm:w-[90vw] md:h-[40px] md:w-[350px]">
               <Image
                 fill
                 className="h-full w-full object-cover"
@@ -51,7 +51,7 @@ const Hero: React.FC<IHero> = ({ description }) => {
           </div>
         </div>
 
-        <p className="whitespace-pre-line text-center text-[32px] font-semibold text-secondary sm:mx-[20px] sm:whitespace-normal sm:text-[18px] md:text-[24px]">
+        <p className="whitespace-pre-line text-center text-[32px] font-semibold text-secondary sm:mx-[20px] sm:whitespace-normal sm:text-[18px] md:mx-[15%] md:whitespace-normal md:text-[24px]">
           {description}
         </p>
 

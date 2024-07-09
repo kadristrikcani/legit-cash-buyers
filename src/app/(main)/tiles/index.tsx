@@ -50,6 +50,7 @@ const Tiles: React.FC = () => {
                 <div
                   key={index}
                   className="min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl"
+                  onClick={() => router.push(`${tile.url}`)}
                 >
                   <div className="flex items-center justify-center">
                     <Image
@@ -72,7 +73,8 @@ const Tiles: React.FC = () => {
               {tilesString.tiles.slice(6).map((tile, index) => (
                 <div
                   key={index + 6}
-                  className="min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl"
+                  className="min-h-[250px] max-w-[300px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl"
+                  onClick={() => router.push(`${tile.url}`)}
                 >
                   <div className="flex items-center justify-center">
                     <Image
