@@ -3,6 +3,7 @@
 import React from 'react'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
 import useMobile from '@src/hooks/useMobile'
@@ -26,7 +27,7 @@ const Tiles: React.FC = () => {
                 className="min-h-[350px] max-w-[350px] space-y-4 rounded-xl bg-yellow px-[25px] pb-[30px] pt-[60px] text-center shadow-2xl hover:cursor-pointer hover:bg-darkenYellow hover:transition-all sm:min-h-[300px] sm:px-[15px] sm:pb-[5px] sm:pt-[20px]"
                 onClick={() => router.push(`${tile.url}`)}
               >
-                <div className="flex items-center justify-center">
+                <div className="mb-4 flex items-center justify-center">
                   <Image
                     src={tile.img}
                     width={isMobile ? 70 : 80}
@@ -34,9 +35,12 @@ const Tiles: React.FC = () => {
                     alt={tile.img.replace('/', '').replace('.svg', '')}
                   />
                 </div>
-                <h1 className="text-2xl text-[24px] font-semibold text-secondary sm:text-[22px]">
+                <Link
+                  href={tile.url}
+                  className="text-2xl text-[24px] font-semibold text-secondary sm:text-[22px]"
+                >
                   {isMobile ? tile.mobile.title : tile.title}
-                </h1>
+                </Link>
                 <p className="text-[16px] font-[500] text-secondary sm:text-[14px]">
                   {isMobile ? tile.mobile.description : tile.description}
                 </p>
@@ -60,9 +64,12 @@ const Tiles: React.FC = () => {
                       alt={tile.img.replace('/', '').replace('.svg', '')}
                     />
                   </div>
-                  <h1 className="text-2xl font-semibold text-secondary sm:text-[22px] md:text-[24px]">
+                  <Link
+                    href={tile.url}
+                    className="text-2xl font-semibold text-secondary sm:text-[22px] md:text-[24px]"
+                  >
                     {tile.title}
-                  </h1>
+                  </Link>
                   <p className="text-[16px] font-[500] text-secondary sm:text-[14px]">
                     {tile.description}
                   </p>
@@ -84,9 +91,12 @@ const Tiles: React.FC = () => {
                       alt={tile.img.replace('/', '').replace('.svg', '')}
                     />
                   </div>
-                  <h1 className="text-2xl font-semibold text-secondary sm:text-[22px] md:text-[24px]">
+                  <Link
+                    href={tile.url}
+                    className="text-2xl font-semibold text-secondary sm:text-[22px] md:text-[24px]"
+                  >
                     {tile.title}
-                  </h1>
+                  </Link>
                   <p className="text-[16px] font-[500] text-secondary sm:text-[14px]">
                     {tile.description}
                   </p>
