@@ -1,5 +1,3 @@
-'use client'
-
 import React from 'react'
 
 import TestimonialCarousel, { ITestimonial } from '@src/components/testimonials'
