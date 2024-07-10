@@ -9,10 +9,7 @@ interface IAppLogoProps {
 
 const AppLogo: FC<IAppLogoProps> = ({ size = 100 }) => {
   return (
-    <Link
-      href="/"
-      className={`bg-transparent relative flex items-center justify-center rounded-full border-[3px] border-primary p-[4px]`}
-    >
+    <Link href="/">
       <Image
         src="/logo/app-logo.svg"
         alt="logo"
