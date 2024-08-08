@@ -16,6 +16,8 @@ const Tiles: React.FC = () => {
   const isTablet: boolean = useTablet()
   const router = useRouter()
 
+  // TODO: change to LINKS
+
   return (
     <section id="tiles" className="relative flex-1">
       <div className="mx-auto flex flex-col items-center justify-center">
@@ -86,8 +88,8 @@ const Tiles: React.FC = () => {
                   <div className="flex items-center justify-center">
                     <Image
                       src={tile.img}
-                      width={100}
-                      height={100}
+                      width={80}
+                      height={80}
                       alt={tile.img.replace('/', '').replace('.svg', '')}
                     />
                   </div>

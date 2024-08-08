@@ -6,5 +6,7 @@ export const footerString = {
 <span style="font-weight: 600">Email:</span> info@legitcashbuyers.com`,
   copyright: `© 2024 Legit Cash Buyers - All Rights Reserved`,
   termsConditions: `Terms & Conditions`,
-  privacyPolicy: `Privacy Policy`
+  privacyPolicy: `Privacy Policy`,
+  bbbURL:
+    'https://ik.imagekit.io/ldqszfymv/Legit%20Cash%20Buyers/bbb.png?updatedAt=1723140453727'
 }

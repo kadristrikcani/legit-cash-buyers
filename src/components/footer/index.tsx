@@ -85,7 +85,7 @@ const Footer: React.FC<IFooter> = ({ typeformId }) => {
 
           <div className="flex items-center justify-center gap-16 sm:flex-col sm:gap-4 md:gap-32">
             <Image
-              src="/bbb.png"
+              src={footerString.bbbURL}
               alt="BBB"
               className="rounded-[5px]"
               width={isMobile ? 120 : 150}
